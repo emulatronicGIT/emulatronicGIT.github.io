@@ -1,1921 +1,1574 @@
 [
   {
-    "iconName" : "FABIcon",
-    "id" : "552CFE23-EB1E-4A8C-A608-F1167F768EC9",
-    "name" : "First Abu Dhabi Bank",
-    "templates" : [
+    "iconName": "FABIcon",
+    "id": "552CFE23-EB1E-4A8C-A608-F1167F768EC9",
+    "name": "First Abu Dhabi Bank",
+    "templates": [
       {
-        "backgroundImageName" : "fab-blue-platinum-credit-card copy",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0001",
-        "issuer" : "First Abu Dhabi Bank",
-        "minimumSalaryRequirement" : 8000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 2000,
-        "name" : "Blue FAB Platinium",
-        "rules" : [
+        "backgroundImageName": "fab-blue-platinum-credit-card copy",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0001",
+        "issuer": "First Abu Dhabi Bank",
+        "minimumSalaryRequirement": 8000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 2000,
+        "name": "Blue FAB Platinium",
+        "rules": [
           {
-            "category" : {
-              "type" : "online",
-              "value" : "alfuttaim"
+            "category": {
+              "online": "alfuttaim"
             },
-            "id" : "4E1845F0-1FCA-4F5A-9277-2A7ACE8EB6EE",
-            "monthlyCategoryCap" : null,
-            "value" : 0.06
+            "id": "4E1845F0-1FCA-4F5A-9277-2A7ACE8EB6EE",
+            "monthlyCategoryCap": null,
+            "value": 0.06
           },
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "7E4DA120-8DD6-48C6-88A9-12354FF2D1E8",
-            "monthlyCategoryCap" : null,
-            "value" : 0.04
+            "id": "7E4DA120-8DD6-48C6-88A9-12354FF2D1E8",
+            "monthlyCategoryCap": null,
+            "value": 0.04
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "1E418D9C-83E1-43F0-85C1-E5B561AC6D7B",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "1E418D9C-83E1-43F0-85C1-E5B561AC6D7B",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "fab-cashback-credit-card",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0002",
-        "issuer" : "First Abu Dhabi Bank",
-        "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 3000,
-        "monthlyCashbackCap" : 1000,
-        "name" : "FAB Cashback",
-        "rules" : [
+        "backgroundImageName": "fab-cashback-credit-card",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0002",
+        "issuer": "First Abu Dhabi Bank",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 3000,
+        "monthlyCashbackCap": 1000,
+        "name": "FAB Cashback",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "C9D07E6A-3C10-4438-9B06-28D5D42A9C17",
-            "monthlyCategoryCap" : 150,
-            "value" : 0.05
+            "id": "C9D07E6A-3C10-4438-9B06-28D5D42A9C17",
+            "monthlyCategoryCap": 150,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "61FA95A2-F71D-4EE9-9DDC-F023BF23D028",
-            "monthlyCategoryCap" : 150,
-            "value" : 0.05
+            "id": "61FA95A2-F71D-4EE9-9DDC-F023BF23D028",
+            "monthlyCategoryCap": 150,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "fashion"
-            },
-            "id" : "E4F90DEC-05F9-4F3D-B1A4-822E9B2B406D",
-            "monthlyCategoryCap" : 150,
-            "value" : 0.05
+            "category": "fashion",
+            "id": "E4F90DEC-05F9-4F3D-B1A4-822E9B2B406D",
+            "monthlyCategoryCap": 150,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "international"
-            },
-            "id" : "ADD2D8C2-2C33-4E8A-91E5-5CEA5028D3DF",
-            "monthlyCategoryCap" : null,
-            "value" : 0.03
+            "category": "international",
+            "id": "ADD2D8C2-2C33-4E8A-91E5-5CEA5028D3DF",
+            "monthlyCategoryCap": null,
+            "value": 0.03
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "F370F371-8C87-4BA3-840C-EC89B154BDCA",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "F370F371-8C87-4BA3-840C-EC89B154BDCA",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0003",
-        "issuer" : "First Abu Dhabi Bank",
-        "minimumSpendForCashback" : 100,
-        "monthlyCashbackCap" : 0,
-        "name" : "Etihad Guest Infinite",
-        "rules" : [
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0003",
+        "issuer": "First Abu Dhabi Bank",
+        "minimumSpendForCashback": 100,
+        "monthlyCashbackCap": 0,
+        "name": "Etihad Guest Infinite",
+        "rules": [
           {
-            "category" : {
-              "type" : "travel"
-            },
-            "id" : "E38B2750-AFBB-4684-8A61-9B42F7C448D9",
-            "monthlyCategoryCap" : null,
-            "value" : 0.03
+            "category": "travel",
+            "id": "E38B2750-AFBB-4684-8A61-9B42F7C448D9",
+            "monthlyCategoryCap": null,
+            "value": 0.03
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "D8F4C474-CA33-45A0-B7F3-7344298EF472",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "D8F4C474-CA33-45A0-B7F3-7344298EF472",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0004",
-        "issuer" : "First Abu Dhabi Bank",
-        "minimumSalaryRequirement" : 0,
-        "minimumSpendForCashback" : 200,
-        "monthlyCashbackCap" : 3000,
-        "name" : "Rewards Infinite",
-        "rules" : [
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0004",
+        "issuer": "First Abu Dhabi Bank",
+        "minimumSalaryRequirement": 0,
+        "minimumSpendForCashback": 200,
+        "monthlyCashbackCap": 3000,
+        "name": "Rewards Infinite",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "720322C5-5654-4EF7-8DC7-0A018D3630AF",
-            "monthlyCategoryCap" : null,
-            "value" : 0.02
+            "id": "720322C5-5654-4EF7-8DC7-0A018D3630AF",
+            "monthlyCategoryCap": null,
+            "value": 0.02
           },
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "CCD1FB69-CE31-44D8-AE71-C3C96F186615",
-            "monthlyCategoryCap" : null,
-            "value" : 0.02
+            "id": "CCD1FB69-CE31-44D8-AE71-C3C96F186615",
+            "monthlyCategoryCap": null,
+            "value": 0.02
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "CA6CBF4C-96E9-47B0-B585-419A60490ACE",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "CA6CBF4C-96E9-47B0-B585-419A60490ACE",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "ADCBIcon",
-    "id" : "C5C5BBC3-6F49-4D9A-803C-3120B432B17D",
-    "name" : "Abu Dhabi Commercial Bank",
-    "templates" : [
+    "iconName": "ADCBIcon",
+    "id": "C5C5BBC3-6F49-4D9A-803C-3120B432B17D",
+    "name": "Abu Dhabi Commercial Bank",
+    "templates": [
       {
-        "backgroundImageName" : "365-cashback-credit-card",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0101",
-        "issuer" : "Abu Dhabi Commercial Bank",
-        "minimumSalaryRequirement" : 8000,
-        "minimumSpendForCashback" : 5000,
-        "monthlyCashbackCap" : 1000,
-        "name" : "365 Cashback",
-        "rules" : [
+        "backgroundImageName": "365-cashback-credit-card",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0101",
+        "issuer": "Abu Dhabi Commercial Bank",
+        "minimumSalaryRequirement": 8000,
+        "minimumSpendForCashback": 5000,
+        "monthlyCashbackCap": 1000,
+        "name": "365 Cashback",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "BD1B4D16-306E-4E87-8B9E-32299750FB1A",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "id": "BD1B4D16-306E-4E87-8B9E-32299750FB1A",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "3FA5C891-0674-4258-BADB-6E0695A06639",
-            "monthlyCategoryCap" : null,
-            "value" : 0.06
+            "id": "3FA5C891-0674-4258-BADB-6E0695A06639",
+            "monthlyCategoryCap": null,
+            "value": 0.06
           },
           {
-            "category" : {
-              "type" : "utilities"
-            },
-            "id" : "4E9AE05B-D736-4C4B-8E3E-025FFE1D659C",
-            "monthlyCategoryCap" : null,
-            "value" : 0.03
+            "category": "utilities",
+            "id": "4E9AE05B-D736-4C4B-8E3E-025FFE1D659C",
+            "monthlyCategoryCap": null,
+            "value": 0.03
           },
           {
-            "category" : {
-              "type" : "telecomBills"
-            },
-            "id" : "B67579EC-1F45-484F-994B-0C282F442493",
-            "monthlyCategoryCap" : null,
-            "value" : 0.03
+            "category": "telecomBills",
+            "id": "B67579EC-1F45-484F-994B-0C282F442493",
+            "monthlyCategoryCap": null,
+            "value": 0.03
           },
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "529288C7-3BFF-445D-BA49-935734047260",
-            "monthlyCategoryCap" : null,
-            "value" : 0.03
+            "category": "gas",
+            "id": "529288C7-3BFF-445D-BA49-935734047260",
+            "monthlyCategoryCap": null,
+            "value": 0.03
           },
           {
-            "category" : {
-              "type" : "salikNol"
-            },
-            "id" : "127D3176-1286-4A14-9701-88E2C39307B4",
-            "monthlyCategoryCap" : null,
-            "value" : 0.03
+            "category": "salikNol",
+            "id": "127D3176-1286-4A14-9701-88E2C39307B4",
+            "monthlyCategoryCap": null,
+            "value": 0.03
           },
           {
-            "category" : {
-              "type" : "international"
-            },
-            "id" : "E2FAB811-9BF5-4CC1-B9FE-2CA0EC19052F",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "international",
+            "id": "E2FAB811-9BF5-4CC1-B9FE-2CA0EC19052F",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "246825D3-A64D-43EA-9132-710D8BF8287A",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "246825D3-A64D-43EA-9132-710D8BF8287A",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "traveller-400x250",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0102",
-        "issuer" : "Abu Dhabi Commercial Bank",
-        "minimumSalaryRequirement" : 20000,
-        "minimumSpendForCashback" : 5000,
-        "monthlyCashbackCap" : 1500,
-        "name" : "Traveller",
-        "rules" : [
+        "backgroundImageName": "traveller-400x250",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0102",
+        "issuer": "Abu Dhabi Commercial Bank",
+        "minimumSalaryRequirement": 20000,
+        "minimumSpendForCashback": 5000,
+        "monthlyCashbackCap": 1500,
+        "name": "Traveller",
+        "rules": [
           {
-            "category" : {
-              "type" : "travel"
-            },
-            "id" : "2EADCF56-1352-42FD-B7D5-A471404735CA",
-            "monthlyCategoryCap" : null,
-            "value" : 0.1
+            "category": "travel",
+            "id": "2EADCF56-1352-42FD-B7D5-A471404735CA",
+            "monthlyCategoryCap": null,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "hotels",
-              "value" : "generic"
+            "category": {
+              "hotels": "generic"
             },
-            "id" : "142E5484-C2F0-4BFC-BEB6-BDA2CC202E2A",
-            "monthlyCategoryCap" : null,
-            "value" : 0.1
+            "id": "142E5484-C2F0-4BFC-BEB6-BDA2CC202E2A",
+            "monthlyCategoryCap": null,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "hotels",
-              "value" : "booking"
+            "category": {
+              "hotels": "booking"
             },
-            "id" : "139D0F11-0004-49D7-940F-529A811BBE5E",
-            "monthlyCategoryCap" : null,
-            "value" : 0.1
+            "id": "139D0F11-0004-49D7-940F-529A811BBE5E",
+            "monthlyCategoryCap": null,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "FCEC5748-42CE-4AD2-8339-9838003C24C8",
-            "monthlyCategoryCap" : null,
-            "value" : 0.015
+            "category": "rest",
+            "id": "FCEC5748-42CE-4AD2-8339-9838003C24C8",
+            "monthlyCategoryCap": null,
+            "value": 0.015
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "lulu-platinium-credit-card",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0103",
-        "issuer" : "Abu Dhabi Commercial Bank",
-        "minimumSalaryRequirement" : 15000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 0,
-        "name" : "LULU Platinum",
-        "rules" : [
+        "backgroundImageName": "lulu-platinium-credit-card",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0103",
+        "issuer": "Abu Dhabi Commercial Bank",
+        "minimumSalaryRequirement": 15000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "LULU Platinum",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "lulu"
+            "category": {
+              "supermarket": "lulu"
             },
-            "id" : "7D5C59A7-F08F-459C-AFD2-B8B5B10D10D1",
-            "monthlyCategoryCap" : null,
-            "value" : 0.08
+            "id": "7D5C59A7-F08F-459C-AFD2-B8B5B10D10D1",
+            "monthlyCategoryCap": null,
+            "value": 0.08
           },
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "DA07CF8C-1B4C-41ED-9A00-21386D12E1A4",
-            "monthlyCategoryCap" : null,
-            "value" : 0.002
+            "category": "gas",
+            "id": "DA07CF8C-1B4C-41ED-9A00-21386D12E1A4",
+            "monthlyCategoryCap": null,
+            "value": 0.002
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "3074B038-4CC7-4597-9BE2-593E59D1690A",
-            "monthlyCategoryCap" : null,
-            "value" : 0.002
+            "category": "schoolFees",
+            "id": "3074B038-4CC7-4597-9BE2-593E59D1690A",
+            "monthlyCategoryCap": null,
+            "value": 0.002
           },
           {
-            "category" : {
-              "type" : "telecomBills"
-            },
-            "id" : "8EC1B47B-F5CB-40EA-8547-3DDE8D736623",
-            "monthlyCategoryCap" : null,
-            "value" : 0.002
+            "category": "telecomBills",
+            "id": "8EC1B47B-F5CB-40EA-8547-3DDE8D736623",
+            "monthlyCategoryCap": null,
+            "value": 0.002
           },
           {
-            "category" : {
-              "type" : "realEstate"
-            },
-            "id" : "A01A715F-E7B2-4AFD-AC10-614E638A61B6",
-            "monthlyCategoryCap" : null,
-            "value" : 0.002
+            "category": "realEstate",
+            "id": "A01A715F-E7B2-4AFD-AC10-614E638A61B6",
+            "monthlyCategoryCap": null,
+            "value": 0.002
           },
           {
-            "category" : {
-              "type" : "transportation"
-            },
-            "id" : "9577A862-7EF4-4DE8-AA19-A7A537C535FE",
-            "monthlyCategoryCap" : null,
-            "value" : 0.002
+            "category": "transportation",
+            "id": "9577A862-7EF4-4DE8-AA19-A7A537C535FE",
+            "monthlyCategoryCap": null,
+            "value": 0.002
           },
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "45CF9585-F1A2-4523-BD44-1C46B6A74E43",
-            "monthlyCategoryCap" : null,
-            "value" : 0.004
+            "id": "45CF9585-F1A2-4523-BD44-1C46B6A74E43",
+            "monthlyCategoryCap": null,
+            "value": 0.004
           },
           {
-            "category" : {
-              "type" : "autoServicing"
-            },
-            "id" : "69CC12B6-9C6B-4BFA-8645-BF13626B235E",
-            "monthlyCategoryCap" : null,
-            "value" : 0.004
+            "category": "autoServicing",
+            "id": "69CC12B6-9C6B-4BFA-8645-BF13626B235E",
+            "monthlyCategoryCap": null,
+            "value": 0.004
           },
           {
-            "category" : {
-              "type" : "insurance"
-            },
-            "id" : "FEB46BEF-1F5D-4540-850A-D992C49B8E7B",
-            "monthlyCategoryCap" : null,
-            "value" : 0.004
+            "category": "insurance",
+            "id": "FEB46BEF-1F5D-4540-850A-D992C49B8E7B",
+            "monthlyCategoryCap": null,
+            "value": 0.004
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "enbd-lulu-247-titanium-credit",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0104",
-        "issuer" : "Abu Dhabi Commercial Bank",
-        "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 0,
-        "name" : "LULU Titanium",
-        "rules" : [
+        "backgroundImageName": "enbd-lulu-247-titanium-credit",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0104",
+        "issuer": "Abu Dhabi Commercial Bank",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "LULU Titanium",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "lulu"
+            "category": {
+              "supermarket": "lulu"
             },
-            "id" : "3BFFF419-311D-4E70-9F88-E516336E98E6",
-            "monthlyCategoryCap" : null,
-            "value" : 0.035
+            "id": "3BFFF419-311D-4E70-9F88-E516336E98E6",
+            "monthlyCategoryCap": null,
+            "value": 0.035
           },
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "70AFF4CC-1C33-4FB2-8611-6DCFC12BC8DE",
-            "monthlyCategoryCap" : null,
-            "value" : 0.002
+            "category": "gas",
+            "id": "70AFF4CC-1C33-4FB2-8611-6DCFC12BC8DE",
+            "monthlyCategoryCap": null,
+            "value": 0.002
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "86AAA3A5-ADCE-4755-8714-2F2ADE5A591C",
-            "monthlyCategoryCap" : null,
-            "value" : 0.002
+            "category": "schoolFees",
+            "id": "86AAA3A5-ADCE-4755-8714-2F2ADE5A591C",
+            "monthlyCategoryCap": null,
+            "value": 0.002
           },
           {
-            "category" : {
-              "type" : "telecomBills"
-            },
-            "id" : "8E438B5D-CBF6-4B03-A7E7-FBB69576F10C",
-            "monthlyCategoryCap" : null,
-            "value" : 0.002
+            "category": "telecomBills",
+            "id": "8E438B5D-CBF6-4B03-A7E7-FBB69576F10C",
+            "monthlyCategoryCap": null,
+            "value": 0.002
           },
           {
-            "category" : {
-              "type" : "realEstate"
-            },
-            "id" : "2290D835-21A0-42AF-897F-9D9B244A3D9A",
-            "monthlyCategoryCap" : null,
-            "value" : 0.002
+            "category": "realEstate",
+            "id": "2290D835-21A0-42AF-897F-9D9B244A3D9A",
+            "monthlyCategoryCap": null,
+            "value": 0.002
           },
           {
-            "category" : {
-              "type" : "transportation"
-            },
-            "id" : "B88509A8-6F6F-4761-B1CE-244CEA7F1B40",
-            "monthlyCategoryCap" : null,
-            "value" : 0.002
+            "category": "transportation",
+            "id": "B88509A8-6F6F-4761-B1CE-244CEA7F1B40",
+            "monthlyCategoryCap": null,
+            "value": 0.002
           },
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "532C4590-6B00-4D50-B426-046FD1CE9834",
-            "monthlyCategoryCap" : null,
-            "value" : 0.004
+            "id": "532C4590-6B00-4D50-B426-046FD1CE9834",
+            "monthlyCategoryCap": null,
+            "value": 0.004
           },
           {
-            "category" : {
-              "type" : "autoServicing"
-            },
-            "id" : "CA904247-6AA2-4BC6-AA49-6851A9E080B0",
-            "monthlyCategoryCap" : null,
-            "value" : 0.004
+            "category": "autoServicing",
+            "id": "CA904247-6AA2-4BC6-AA49-6851A9E080B0",
+            "monthlyCategoryCap": null,
+            "value": 0.004
           },
           {
-            "category" : {
-              "type" : "insurance"
-            },
-            "id" : "E469673C-E630-49AC-853A-C8C6E043E260",
-            "monthlyCategoryCap" : null,
-            "value" : 0.004
+            "category": "insurance",
+            "id": "E469673C-E630-49AC-853A-C8C6E043E260",
+            "monthlyCategoryCap": null,
+            "value": 0.004
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "talabat-credit-card",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0105",
-        "issuer" : "Abu Dhabi Commercial Bank",
-        "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 2500,
-        "monthlyCashbackCap" : 0,
-        "name" : "Talabat ADCB",
-        "rules" : [
+        "backgroundImageName": "talabat-credit-card",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0105",
+        "issuer": "Abu Dhabi Commercial Bank",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 2500,
+        "monthlyCashbackCap": 0,
+        "name": "Talabat ADCB",
+        "rules": [
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "talabat"
+            "category": {
+              "dining": "talabat"
             },
-            "id" : "8EE27DEE-B21F-4DEA-B8FC-68DE625AA183",
-            "monthlyCategoryCap" : 350,
-            "value" : 0.35
+            "id": "8EE27DEE-B21F-4DEA-B8FC-68DE625AA183",
+            "monthlyCategoryCap": 350,
+            "value": 0.35
           },
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "3448849A-AFA6-4215-8E51-CD0CC61628FD",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0035
+            "id": "3448849A-AFA6-4215-8E51-CD0CC61628FD",
+            "monthlyCategoryCap": null,
+            "value": 0.0035
           },
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "243AA2EE-9023-4F47-BC9F-50515A2039F9",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0035
+            "category": "gas",
+            "id": "243AA2EE-9023-4F47-BC9F-50515A2039F9",
+            "monthlyCategoryCap": null,
+            "value": 0.0035
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "63E01EFF-845E-4F13-BF04-6D643584EEC6",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0035
+            "category": "schoolFees",
+            "id": "63E01EFF-845E-4F13-BF04-6D643584EEC6",
+            "monthlyCategoryCap": null,
+            "value": 0.0035
           },
           {
-            "category" : {
-              "type" : "telecomBills"
-            },
-            "id" : "63997FB3-BCDD-4F4A-8A01-6867CFC12D93",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0035
+            "category": "telecomBills",
+            "id": "63997FB3-BCDD-4F4A-8A01-6867CFC12D93",
+            "monthlyCategoryCap": null,
+            "value": 0.0035
           },
           {
-            "category" : {
-              "type" : "realEstate"
-            },
-            "id" : "FCA2ECDD-8D27-4FBD-94C8-EAAC18A3C59F",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0035
+            "category": "realEstate",
+            "id": "FCA2ECDD-8D27-4FBD-94C8-EAAC18A3C59F",
+            "monthlyCategoryCap": null,
+            "value": 0.0035
           },
           {
-            "category" : {
-              "type" : "transportation"
-            },
-            "id" : "E60C31C2-E6A3-49CA-880D-1C2DFC17C841",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0035
+            "category": "transportation",
+            "id": "E60C31C2-E6A3-49CA-880D-1C2DFC17C841",
+            "monthlyCategoryCap": null,
+            "value": 0.0035
           },
           {
-            "category" : {
-              "type" : "autoServicing"
-            },
-            "id" : "2C7DC6CF-3DF1-47F0-B581-9DB0BECB2343",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0035
+            "category": "autoServicing",
+            "id": "2C7DC6CF-3DF1-47F0-B581-9DB0BECB2343",
+            "monthlyCategoryCap": null,
+            "value": 0.0035
           },
           {
-            "category" : {
-              "type" : "insurance"
-            },
-            "id" : "A157AB58-794E-43B7-9C6F-AA5BDA8BD77C",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0035
+            "category": "insurance",
+            "id": "A157AB58-794E-43B7-9C6F-AA5BDA8BD77C",
+            "monthlyCategoryCap": null,
+            "value": 0.0035
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "DF4A93D3-6187-4848-A344-00CB27BC721B",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0125
+            "category": "rest",
+            "id": "DF4A93D3-6187-4848-A344-00CB27BC721B",
+            "monthlyCategoryCap": null,
+            "value": 0.0125
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "shukran-conventional-400x250-2 copy",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0106",
-        "issuer" : "Abu Dhabi Commercial Bank",
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 0,
-        "name" : "Shukran ADCB",
-        "rules" : [
+        "backgroundImageName": "shukran-conventional-400x250-2 copy",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0106",
+        "issuer": "Abu Dhabi Commercial Bank",
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Shukran ADCB",
+        "rules": [
           {
-            "category" : {
-              "type" : "shukran"
-            },
-            "id" : "37C14994-6375-4B6A-A3E4-D50B3C78854F",
-            "monthlyCategoryCap" : null,
-            "value" : 0.1
+            "category": "shukran",
+            "id": "37C14994-6375-4B6A-A3E4-D50B3C78854F",
+            "monthlyCategoryCap": null,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "343781AC-C4C0-400B-A5CB-84DED45E105F",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "343781AC-C4C0-400B-A5CB-84DED45E105F",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "ENBDIcon",
-    "id" : "FFCDF201-EED2-40FE-8BEA-AF6EA1CA0E29",
-    "name" : "Emirates NBD",
-    "templates" : [
+    "iconName": "ENBDIcon",
+    "id": "FFCDF201-EED2-40FE-8BEA-AF6EA1CA0E29",
+    "name": "Emirates NBD",
+    "templates": [
       {
-        "backgroundImageName" : "enbd-share-infinite-credit-card",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0201",
-        "issuer" : "Emirates NBD",
-        "minimumSalaryRequirement" : 30000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 0,
-        "name" : "Emirates NBD SHARE Infinite",
-        "rules" : [
+        "backgroundImageName": "enbd-share-infinite-credit-card",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0201",
+        "issuer": "Emirates NBD",
+        "minimumSalaryRequirement": 30000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Emirates NBD SHARE Infinite",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "carrefour"
+            "category": {
+              "supermarket": "carrefour"
             },
-            "id" : "B580B0EA-B8E5-455C-A198-3DDA847E784C",
-            "monthlyCategoryCap" : null,
-            "value" : 0.08
+            "id": "B580B0EA-B8E5-455C-A198-3DDA847E784C",
+            "monthlyCategoryCap": null,
+            "value": 0.08
           },
           {
-            "category" : {
-              "type" : "share"
-            },
-            "id" : "61B60F31-BF7E-4BCA-A483-19F16AE71469",
-            "monthlyCategoryCap" : null,
-            "value" : 0.08
+            "category": "share",
+            "id": "61B60F31-BF7E-4BCA-A483-19F16AE71469",
+            "monthlyCategoryCap": null,
+            "value": 0.08
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "2D6E4544-D709-41D6-AECB-EA99F4C985A9",
-            "monthlyCategoryCap" : null,
-            "value" : 0.015
+            "category": "rest",
+            "id": "2D6E4544-D709-41D6-AECB-EA99F4C985A9",
+            "monthlyCategoryCap": null,
+            "value": 0.015
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "duo",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0203",
-        "issuer" : "Emirates NBD",
-        "minimumSalaryRequirement" : 12000,
-        "minimumSpendForCashback" : 5000,
-        "monthlyCashbackCap" : 500,
-        "name" : "Emirates NBD Duo",
-        "rules" : [
+        "backgroundImageName": "duo",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0203",
+        "issuer": "Emirates NBD",
+        "minimumSalaryRequirement": 12000,
+        "minimumSpendForCashback": 5000,
+        "monthlyCashbackCap": 500,
+        "name": "Emirates NBD Duo",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "F7E31BEB-720A-46B2-BED3-D0707F3053E9",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "id": "F7E31BEB-720A-46B2-BED3-D0707F3053E9",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "utilities"
-            },
-            "id" : "ADD5A306-EFB7-4B01-A935-B01DB54496B9",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "category": "utilities",
+            "id": "ADD5A306-EFB7-4B01-A935-B01DB54496B9",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "B6AF0A2E-15A3-42C4-B06B-CCF7105F9D39",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "category": "schoolFees",
+            "id": "B6AF0A2E-15A3-42C4-B06B-CCF7105F9D39",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "1A6F1ADC-2C45-4BC7-928D-678F0A4C93AC",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "category": "gas",
+            "id": "1A6F1ADC-2C45-4BC7-928D-678F0A4C93AC",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "5A8C9A0D-0B34-40C5-BDDD-4EDE95FAD49B",
-            "monthlyCategoryCap" : null,
-            "value" : 0.005
+            "category": "rest",
+            "id": "5A8C9A0D-0B34-40C5-BDDD-4EDE95FAD49B",
+            "monthlyCategoryCap": null,
+            "value": 0.005
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "enbd-noon-one-credit-card",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0204",
-        "issuer" : "Emirates NBD",
-        "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 0,
-        "name" : "Emirates NBD Noon",
-        "rules" : [
+        "backgroundImageName": "enbd-noon-one-credit-card",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0204",
+        "issuer": "Emirates NBD",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Emirates NBD Noon",
+        "rules": [
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "noon"
+            "category": {
+              "dining": "noon"
             },
-            "id" : "6A5B1282-FBAB-4618-BADF-772DC2E121EA",
-            "monthlyCategoryCap" : null,
-            "value" : 0.2
+            "id": "6A5B1282-FBAB-4618-BADF-772DC2E121EA",
+            "monthlyCategoryCap": null,
+            "value": 0.2
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "CE6062C8-7D42-450C-A8F4-B4F206679DE6",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "CE6062C8-7D42-450C-A8F4-B4F206679DE6",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "DIBIcon",
-    "id" : "8EBB6CA8-A723-441F-9E71-1D56E5251C64",
-    "name" : "Dubai Islamic Bank",
-    "templates" : [
+    "iconName": "DIBIcon",
+    "id": "8EBB6CA8-A723-441F-9E71-1D56E5251C64",
+    "name": "Dubai Islamic Bank",
+    "templates": [
       {
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0301",
-        "issuer" : "Dubai Islamic Bank",
-        "minimumSpendForCashback" : 8000,
-        "monthlyCashbackCap" : 300,
-        "name" : "SHAMS Infinite Covered Card",
-        "rules" : [
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0301",
+        "issuer": "Dubai Islamic Bank",
+        "minimumSpendForCashback": 8000,
+        "monthlyCashbackCap": 300,
+        "name": "SHAMS Infinite Covered Card",
+        "rules": [
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "867A3479-8080-4CE0-987A-1484EA12B7CA",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "id": "867A3479-8080-4CE0-987A-1484EA12B7CA",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "travel"
-            },
-            "id" : "5B4A3D18-A2E9-489B-973F-CA88DA9E37CC",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "category": "travel",
+            "id": "5B4A3D18-A2E9-489B-973F-CA88DA9E37CC",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "MashreqIcon",
-    "id" : "59E4DBA5-C5D7-44F9-A82A-34D942AC68E7",
-    "name" : "Mashreq Bank",
-    "templates" : [
+    "iconName": "MashreqIcon",
+    "id": "59E4DBA5-C5D7-44F9-A82A-34D942AC68E7",
+    "name": "Mashreq Bank",
+    "templates": [
       {
-        "backgroundImageName" : "mashreq-noon-credit-card",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0401",
-        "issuer" : "Mashreq Bank",
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 0,
-        "name" : "Mashreq Noon Card",
-        "rules" : [
+        "backgroundImageName": "mashreq-noon-credit-card",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0401",
+        "issuer": "Mashreq Bank",
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Mashreq Noon Card",
+        "rules": [
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "noon"
+            "category": {
+              "dining": "noon"
             },
-            "id" : "85FC2BA7-A66D-4270-8A26-E1066D2693E1",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "id": "85FC2BA7-A66D-4270-8A26-E1066D2693E1",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "international"
-            },
-            "id" : "95DC06EC-144F-43BA-BA83-0B4FE6BF62B3",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "international",
+            "id": "95DC06EC-144F-43BA-BA83-0B4FE6BF62B3",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "091F196A-06F6-40E3-975C-DF41DDF69095",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "091F196A-06F6-40E3-975C-DF41DDF69095",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           },
           {
-            "category" : {
-              "type" : "utilities"
-            },
-            "id" : "1BA719A1-3FC2-4289-A480-D338B5E73C54",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0033
+            "category": "utilities",
+            "id": "1BA719A1-3FC2-4289-A480-D338B5E73C54",
+            "monthlyCategoryCap": null,
+            "value": 0.0033
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "D00F3F1B-9C78-46F0-BF2B-3A244D84E3A1",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0033
+            "category": "schoolFees",
+            "id": "D00F3F1B-9C78-46F0-BF2B-3A244D84E3A1",
+            "monthlyCategoryCap": null,
+            "value": 0.0033
           },
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "4E959694-AEC8-4534-B25B-723CE0CAA64A",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0033
+            "category": "gas",
+            "id": "4E959694-AEC8-4534-B25B-723CE0CAA64A",
+            "monthlyCategoryCap": null,
+            "value": 0.0033
           },
           {
-            "category" : {
-              "type" : "telecomBills"
-            },
-            "id" : "F007E001-26F1-4670-B068-FCACF4AF2200",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0033
+            "category": "telecomBills",
+            "id": "F007E001-26F1-4670-B068-FCACF4AF2200",
+            "monthlyCategoryCap": null,
+            "value": 0.0033
           },
           {
-            "category" : {
-              "type" : "government"
-            },
-            "id" : "D99ACE7B-9EF8-4F5B-B0F6-50B322BF742B",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0033
+            "category": "government",
+            "id": "D99ACE7B-9EF8-4F5B-B0F6-50B322BF742B",
+            "monthlyCategoryCap": null,
+            "value": 0.0033
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "neo-cashback-card-product-card-360x220",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0402",
-        "issuer" : "Mashreq Bank",
-        "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 0,
-        "name" : "Mashreq Cashback",
-        "rules" : [
+        "backgroundImageName": "neo-cashback-card-product-card-360x220",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0402",
+        "issuer": "Mashreq Bank",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Mashreq Cashback",
+        "rules": [
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "AF5CCA94-D226-46EF-BDB7-EF638C5C2034",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "id": "AF5CCA94-D226-46EF-BDB7-EF638C5C2034",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "international"
-            },
-            "id" : "30CFDAEA-239D-4E1D-81EB-AE8A96CE9A06",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "international",
+            "id": "30CFDAEA-239D-4E1D-81EB-AE8A96CE9A06",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "43A4F665-5086-4A2E-87E9-2CEFFB858564",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "43A4F665-5086-4A2E-87E9-2CEFFB858564",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           },
           {
-            "category" : {
-              "type" : "utilities"
-            },
-            "id" : "E9605685-E649-4753-A6FD-9E8B49C0BD23",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0033
+            "category": "utilities",
+            "id": "E9605685-E649-4753-A6FD-9E8B49C0BD23",
+            "monthlyCategoryCap": null,
+            "value": 0.0033
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "77334E36-BD89-46B3-B596-95F6EFC9321F",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0033
+            "category": "schoolFees",
+            "id": "77334E36-BD89-46B3-B596-95F6EFC9321F",
+            "monthlyCategoryCap": null,
+            "value": 0.0033
           },
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "F3AEEB10-9193-4A23-993D-0B49B7EE57DB",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0033
+            "category": "gas",
+            "id": "F3AEEB10-9193-4A23-993D-0B49B7EE57DB",
+            "monthlyCategoryCap": null,
+            "value": 0.0033
           },
           {
-            "category" : {
-              "type" : "telecomBills"
-            },
-            "id" : "F6F34D48-4BDB-41C3-BFEE-3C3A29630651",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0033
+            "category": "telecomBills",
+            "id": "F6F34D48-4BDB-41C3-BFEE-3C3A29630651",
+            "monthlyCategoryCap": null,
+            "value": 0.0033
           },
           {
-            "category" : {
-              "type" : "government"
-            },
-            "id" : "08088A68-6BAA-4B71-8423-598AB7CF1150",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0033
+            "category": "government",
+            "id": "08088A68-6BAA-4B71-8423-598AB7CF1150",
+            "monthlyCategoryCap": null,
+            "value": 0.0033
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "RAKBANKIcon",
-    "id" : "94378FF5-379F-42F6-9193-65C31EB1979B",
-    "name" : "RAKBANK",
-    "templates" : [
+    "iconName": "RAKBANKIcon",
+    "id": "94378FF5-379F-42F6-9193-65C31EB1979B",
+    "name": "RAKBANK",
+    "templates": [
       {
-        "backgroundImageName" : "rakbank-titanium-credit-card",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0501",
-        "issuer" : "RAKBANK",
-        "minimumSalaryRequirement" : 8000,
-        "minimumSpendForCashback" : 2000,
-        "monthlyCashbackCap" : 600,
-        "name" : "RAKBANK Titanium",
-        "rules" : [
+        "backgroundImageName": "rakbank-titanium-credit-card",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0501",
+        "issuer": "RAKBANK",
+        "minimumSalaryRequirement": 8000,
+        "minimumSpendForCashback": 2000,
+        "monthlyCashbackCap": 600,
+        "name": "RAKBANK Titanium",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "5191AADE-37DF-49B7-B1B4-9E25E58D4A4E",
-            "monthlyCategoryCap" : 100,
-            "value" : 0.05
+            "id": "5191AADE-37DF-49B7-B1B4-9E25E58D4A4E",
+            "monthlyCategoryCap": 100,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "E5DC6EED-DAA1-4F9A-994D-ADD2245A93FD",
-            "monthlyCategoryCap" : 100,
-            "value" : 0.05
+            "id": "E5DC6EED-DAA1-4F9A-994D-ADD2245A93FD",
+            "monthlyCategoryCap": 100,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "cinema"
-            },
-            "id" : "FD50AB42-8ACB-4D51-AF48-7DDEF7BEC1DE",
-            "monthlyCategoryCap" : 100,
-            "value" : 0.5
+            "category": "cinema",
+            "id": "FD50AB42-8ACB-4D51-AF48-7DDEF7BEC1DE",
+            "monthlyCategoryCap": 100,
+            "value": 0.5
           },
           {
-            "category" : {
-              "type" : "videoStreaming"
-            },
-            "id" : "C631CEB6-6311-4540-9CD1-A413FE24F8B9",
-            "monthlyCategoryCap" : 100,
-            "value" : 0.5
+            "category": "videoStreaming",
+            "id": "C631CEB6-6311-4540-9CD1-A413FE24F8B9",
+            "monthlyCategoryCap": 100,
+            "value": 0.5
           },
           {
-            "category" : {
-              "type" : "ewalletRetail"
-            },
-            "id" : "B18D69CB-DB33-4290-B6F3-C0212C9CA526",
-            "monthlyCategoryCap" : 100,
-            "value" : 0.02
+            "category": "ewalletRetail",
+            "id": "B18D69CB-DB33-4290-B6F3-C0212C9CA526",
+            "monthlyCategoryCap": 100,
+            "value": 0.02
           },
           {
-            "category" : {
-              "type" : "nonEwalletRetail"
-            },
-            "id" : "5B90C99C-5785-40EA-941D-1B2530D61853",
-            "monthlyCategoryCap" : 100,
-            "value" : 0.01
+            "category": "nonEwalletRetail",
+            "id": "5B90C99C-5785-40EA-941D-1B2530D61853",
+            "monthlyCategoryCap": 100,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "rakbank-world-credit-card",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0502",
-        "issuer" : "RAKBANK",
-        "minimumSalaryRequirement" : 20000,
-        "minimumSpendForCashback" : 10000,
-        "monthlyCashbackCap" : 0,
-        "name" : "RAKBANK World",
-        "rules" : [
+        "backgroundImageName": "rakbank-world-credit-card",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0502",
+        "issuer": "RAKBANK",
+        "minimumSalaryRequirement": 20000,
+        "minimumSpendForCashback": 10000,
+        "monthlyCashbackCap": 0,
+        "name": "RAKBANK World",
+        "rules": [
           {
-            "category" : {
-              "type" : "travel"
-            },
-            "id" : "BBFAA50A-9976-4BE8-980E-220ECB0F537A",
-            "monthlyCategoryCap" : 400,
-            "value" : 0.1
+            "category": "travel",
+            "id": "BBFAA50A-9976-4BE8-980E-220ECB0F537A",
+            "monthlyCategoryCap": 400,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "E2C640C5-F5C2-43D3-8EA7-CC4FC7547CB4",
-            "monthlyCategoryCap" : 300,
-            "value" : 0.1
+            "id": "E2C640C5-F5C2-43D3-8EA7-CC4FC7547CB4",
+            "monthlyCategoryCap": 300,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "BD034B2D-50F7-470D-AB06-A7C6B3917964",
-            "monthlyCategoryCap" : 300,
-            "value" : 0.1
+            "id": "BD034B2D-50F7-470D-AB06-A7C6B3917964",
+            "monthlyCategoryCap": 300,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "international"
-            },
-            "id" : "991E11A4-74A7-41ED-83B0-2A879E8BD16D",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "category": "international",
+            "id": "991E11A4-74A7-41ED-83B0-2A879E8BD16D",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "ewalletRetail"
-            },
-            "id" : "8D95D071-CB9F-483F-A64D-4411FA383A2E",
-            "monthlyCategoryCap" : 150,
-            "value" : 0.03
+            "category": "ewalletRetail",
+            "id": "8D95D071-CB9F-483F-A64D-4411FA383A2E",
+            "monthlyCategoryCap": 150,
+            "value": 0.03
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "A18E34CD-B643-4A41-8B0A-029E5DAEA1AF",
-            "monthlyCategoryCap" : 100,
-            "value" : 0.01
+            "category": "rest",
+            "id": "A18E34CD-B643-4A41-8B0A-029E5DAEA1AF",
+            "monthlyCategoryCap": 100,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "ADIBIcon",
-    "id" : "7CF7D65E-8E31-489F-A882-4683F1B31324",
-    "name" : "Abu Dhabi Islamic Bank",
-    "templates" : [
+    "iconName": "ADIBIcon",
+    "id": "7CF7D65E-8E31-489F-A882-4683F1B31324",
+    "name": "Abu Dhabi Islamic Bank",
+    "templates": [
       {
-        "backgroundImageName" : "adib-cashback-visa-covered-card-in-uae",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0601",
-        "issuer" : "Abu Dhabi Islamic Bank",
-        "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 1000,
-        "name" : "ADIB Cashback Visa Covered",
-        "rules" : [
+        "backgroundImageName": "adib-cashback-visa-covered-card-in-uae",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0601",
+        "issuer": "Abu Dhabi Islamic Bank",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 1000,
+        "name": "ADIB Cashback Visa Covered",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "72A460D3-F811-490C-A5C3-4BEDAE1A79F2",
-            "monthlyCategoryCap" : 300,
-            "value" : 0.04
+            "id": "72A460D3-F811-490C-A5C3-4BEDAE1A79F2",
+            "monthlyCategoryCap": 300,
+            "value": 0.04
           },
           {
-            "category" : {
-              "type" : "autoServicing"
-            },
-            "id" : "4DA93540-2506-4CC5-A3B2-BDA4D046AA36",
-            "monthlyCategoryCap" : null,
-            "value" : 0.04
+            "category": "autoServicing",
+            "id": "4DA93540-2506-4CC5-A3B2-BDA4D046AA36",
+            "monthlyCategoryCap": null,
+            "value": 0.04
           },
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "CBDD4520-7424-4027-98E6-E25531A1A2A3",
-            "monthlyCategoryCap" : 200,
-            "value" : 0.04
+            "id": "CBDD4520-7424-4027-98E6-E25531A1A2A3",
+            "monthlyCategoryCap": 200,
+            "value": 0.04
           },
           {
-            "category" : {
-              "type" : "telecomBills"
-            },
-            "id" : "BE5F8B98-FE77-4623-9149-7E6ABEECAEA7",
-            "monthlyCategoryCap" : null,
-            "value" : 0.03
+            "category": "telecomBills",
+            "id": "BE5F8B98-FE77-4623-9149-7E6ABEECAEA7",
+            "monthlyCategoryCap": null,
+            "value": 0.03
           },
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "4B670B03-1F88-4896-8C53-F2A3A5E33AAD",
-            "monthlyCategoryCap" : null,
-            "value" : 0.04
+            "category": "gas",
+            "id": "4B670B03-1F88-4896-8C53-F2A3A5E33AAD",
+            "monthlyCategoryCap": null,
+            "value": 0.04
           },
           {
-            "category" : {
-              "type" : "utilities"
-            },
-            "id" : "0584078A-FAF4-41F3-81BB-C41FED364188",
-            "monthlyCategoryCap" : 100,
-            "value" : 0.04
+            "category": "utilities",
+            "id": "0584078A-FAF4-41F3-81BB-C41FED364188",
+            "monthlyCategoryCap": 100,
+            "value": 0.04
           },
           {
-            "category" : {
-              "type" : "salikNol"
-            },
-            "id" : "B4F6C2DD-E8A4-4FDC-8EEB-670291CF0FF3",
-            "monthlyCategoryCap" : null,
-            "value" : 0.03
+            "category": "salikNol",
+            "id": "B4F6C2DD-E8A4-4FDC-8EEB-670291CF0FF3",
+            "monthlyCategoryCap": null,
+            "value": 0.03
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "E9B8B9E0-B390-4E16-BD6D-41CD9F1F0293",
-            "monthlyCategoryCap" : 300,
-            "value" : 0.04
+            "category": "schoolFees",
+            "id": "E9B8B9E0-B390-4E16-BD6D-41CD9F1F0293",
+            "monthlyCategoryCap": 300,
+            "value": 0.04
           }
         ],
-        "sharedCaps" : [
+        "sharedCaps": [
           {
-            "cap" : 300,
-            "categories" : [
-              {
-                "type" : "gas"
-              },
-              {
-                "type" : "autoServicing"
-              }
+            "cap": 300,
+            "categories": [
+              "gas",
+              "autoServicing"
             ],
-            "id" : "B56114D4-D00A-4F87-ADBF-071DC65BBA30"
+            "id": "B56114D4-D00A-4F87-ADBF-071DC65BBA30"
           }
         ]
       }
     ]
   },
   {
-    "iconName" : "DubaiFirstIcon",
-    "id" : "35D2EE2C-6FC6-4DC5-AE2B-15887EC51438",
-    "name" : "Dubai First",
-    "templates" : [
+    "iconName": "DubaiFirstIcon",
+    "id": "35D2EE2C-6FC6-4DC5-AE2B-15887EC51438",
+    "name": "Dubai First",
+    "templates": [
       {
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0701",
-        "issuer" : "Dubai First",
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 1000,
-        "name" : "Dubai First Signature",
-        "rules" : [
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0701",
+        "issuer": "Dubai First",
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 1000,
+        "name": "Dubai First Signature",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "C5356CF6-A322-4CCE-B12D-651B9CA7FE8B",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "id": "C5356CF6-A322-4CCE-B12D-651B9CA7FE8B",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "3FDBFCF8-55A4-42F4-9C76-824C41F139B5",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "id": "3FDBFCF8-55A4-42F4-9C76-824C41F139B5",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "telecomBills"
-            },
-            "id" : "3BB99951-9D61-4019-B960-3A8B69B73189",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "telecomBills",
+            "id": "3BB99951-9D61-4019-B960-3A8B69B73189",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           },
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "282D13C0-9B4D-48DF-8612-F7E3F1E1A57B",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "category": "gas",
+            "id": "282D13C0-9B4D-48DF-8612-F7E3F1E1A57B",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "utilities"
-            },
-            "id" : "49486932-61B0-4067-AE1A-D855F4AAFABD",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "utilities",
+            "id": "49486932-61B0-4067-AE1A-D855F4AAFABD",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           },
           {
-            "category" : {
-              "type" : "salikNol"
-            },
-            "id" : "22D1B764-DEA0-4BE1-AC6B-0C18FE6A4542",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "salikNol",
+            "id": "22D1B764-DEA0-4BE1-AC6B-0C18FE6A4542",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "DA5765FA-E00C-487D-836A-9E903C3F13FF",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "schoolFees",
+            "id": "DA5765FA-E00C-487D-836A-9E903C3F13FF",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "dubaifirstcash",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0702",
-        "issuer" : "Dubai First",
-        "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 0,
-        "name" : "Dubai First Cashback",
-        "rules" : [
+        "backgroundImageName": "dubaifirstcash",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0702",
+        "issuer": "Dubai First",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Dubai First Cashback",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "CF426F3F-4732-40BC-B101-C20FD1DC6AD8",
-            "monthlyCategoryCap" : 150,
-            "value" : 0.05
+            "id": "CF426F3F-4732-40BC-B101-C20FD1DC6AD8",
+            "monthlyCategoryCap": 150,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "2868C1B3-AD89-4C04-A431-376C2C309A77",
-            "monthlyCategoryCap" : 150,
-            "value" : 0.05
+            "id": "2868C1B3-AD89-4C04-A431-376C2C309A77",
+            "monthlyCategoryCap": 150,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "telecomBills"
-            },
-            "id" : "00B52734-DCE0-4C9E-B81C-41DCD51C8DDD",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "telecomBills",
+            "id": "00B52734-DCE0-4C9E-B81C-41DCD51C8DDD",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           },
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "08B6ADD0-E8C2-48C0-ACDB-2AA5AE3D0361",
-            "monthlyCategoryCap" : 10,
-            "value" : 0.05
+            "category": "gas",
+            "id": "08B6ADD0-E8C2-48C0-ACDB-2AA5AE3D0361",
+            "monthlyCategoryCap": 10,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "utilities"
-            },
-            "id" : "89405A7B-2518-4A30-AE01-301BC2B7133E",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "utilities",
+            "id": "89405A7B-2518-4A30-AE01-301BC2B7133E",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           },
           {
-            "category" : {
-              "type" : "salikNol"
-            },
-            "id" : "10200606-A8E1-4268-9CD0-0D15A2691543",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "salikNol",
+            "id": "10200606-A8E1-4268-9CD0-0D15A2691543",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "61A8CC4A-8782-47FE-9EE1-45654AFB80D1",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "schoolFees",
+            "id": "61A8CC4A-8782-47FE-9EE1-45654AFB80D1",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           },
           {
-            "category" : {
-              "type" : "government"
-            },
-            "id" : "50C0A505-24CF-4221-8731-A2266FFBEC37",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "government",
+            "id": "50C0A505-24CF-4221-8731-A2266FFBEC37",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           },
           {
-            "category" : {
-              "type" : "transportation"
-            },
-            "id" : "56C1FF0B-BE97-42C3-A527-DF5CE87702CB",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "transportation",
+            "id": "56C1FF0B-BE97-42C3-A527-DF5CE87702CB",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           },
           {
-            "category" : {
-              "type" : "realEstate"
-            },
-            "id" : "9ED65A47-2C93-499C-B4C7-A8BB37906C21",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "realEstate",
+            "id": "9ED65A47-2C93-499C-B4C7-A8BB37906C21",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           },
           {
-            "category" : {
-              "type" : "insurance"
-            },
-            "id" : "6E67B34A-7EE8-40E3-907F-B950CDAE4A18",
-            "monthlyCategoryCap" : null,
-            "value" : 0.0015
+            "category": "insurance",
+            "id": "6E67B34A-7EE8-40E3-907F-B950CDAE4A18",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "2B7C7935-7683-439D-A90E-E03DED185A44",
-            "monthlyCategoryCap" : null,
-            "value" : 0.005
+            "category": "rest",
+            "id": "2B7C7935-7683-439D-A90E-E03DED185A44",
+            "monthlyCategoryCap": null,
+            "value": 0.005
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "SIBIcon",
-    "id" : "FDAAD282-0407-4C87-83F5-202865038B71",
-    "name" : "Sharjah Islamic Bank",
-    "templates" : [
+    "iconName": "SIBIcon",
+    "id": "FDAAD282-0407-4C87-83F5-202865038B71",
+    "name": "Sharjah Islamic Bank",
+    "templates": [
       {
-        "backgroundImageName" : "SIBcard",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0801",
-        "issuer" : "Sharjah Islamic Bank",
-        "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 0,
-        "name" : "SIB Cashback",
-        "rules" : [
+        "backgroundImageName": "SIBcard",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0801",
+        "issuer": "Sharjah Islamic Bank",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "SIB Cashback",
+        "rules": [
           {
-            "category" : {
-              "type" : "online",
-              "value" : "generic"
+            "category": {
+              "online": "generic"
             },
-            "id" : "33B69DA5-0B0C-42E8-87C6-F37A3B0159AB",
-            "monthlyCategoryCap" : null,
-            "value" : 0.11
+            "id": "33B69DA5-0B0C-42E8-87C6-F37A3B0159AB",
+            "monthlyCategoryCap": null,
+            "value": 0.11
           },
           {
-            "category" : {
-              "type" : "ewalletRetail"
-            },
-            "id" : "01A28CA3-3B5A-4DFF-8D76-F4E5ED0BF570",
-            "monthlyCategoryCap" : null,
-            "value" : 0.1
+            "category": "ewalletRetail",
+            "id": "01A28CA3-3B5A-4DFF-8D76-F4E5ED0BF570",
+            "monthlyCategoryCap": null,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "7DB3E50B-6741-4347-B79E-A68662AA0FEC",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "7DB3E50B-6741-4347-B79E-A68662AA0FEC",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           },
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "78375983-7A7F-4DC1-B28F-5AE0D992B91B",
-            "monthlyCategoryCap" : null,
-            "value" : 0.005
+            "id": "78375983-7A7F-4DC1-B28F-5AE0D992B91B",
+            "monthlyCategoryCap": null,
+            "value": 0.005
           },
           {
-            "category" : {
-              "type" : "utilities"
-            },
-            "id" : "5A48767E-034C-4694-9CAB-B318340D4AFD",
-            "monthlyCategoryCap" : null,
-            "value" : 0.005
+            "category": "utilities",
+            "id": "5A48767E-034C-4694-9CAB-B318340D4AFD",
+            "monthlyCategoryCap": null,
+            "value": 0.005
           },
           {
-            "category" : {
-              "type" : "telecomBills"
-            },
-            "id" : "696C43D6-917D-4352-A5EF-31250AE283BA",
-            "monthlyCategoryCap" : null,
-            "value" : 0.005
+            "category": "telecomBills",
+            "id": "696C43D6-917D-4352-A5EF-31250AE283BA",
+            "monthlyCategoryCap": null,
+            "value": 0.005
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "7FA82095-4104-4447-83BD-486D594C7C04",
-            "monthlyCategoryCap" : null,
-            "value" : 0.005
+            "category": "schoolFees",
+            "id": "7FA82095-4104-4447-83BD-486D594C7C04",
+            "monthlyCategoryCap": null,
+            "value": 0.005
           },
           {
-            "category" : {
-              "type" : "government"
-            },
-            "id" : "A6E5A00F-ECDE-4B12-A686-36F6A057012F",
-            "monthlyCategoryCap" : null,
-            "value" : 0.005
+            "category": "government",
+            "id": "A6E5A00F-ECDE-4B12-A686-36F6A057012F",
+            "monthlyCategoryCap": null,
+            "value": 0.005
           },
           {
-            "category" : {
-              "type" : "international"
-            },
-            "id" : "84AAA2D9-47B2-4CB0-8CCD-7B88C404368F",
-            "monthlyCategoryCap" : null,
-            "value" : 0.02
+            "category": "international",
+            "id": "84AAA2D9-47B2-4CB0-8CCD-7B88C404368F",
+            "monthlyCategoryCap": null,
+            "value": 0.02
           }
         ],
-        "sharedCaps" : [
+        "sharedCaps": [
           {
-            "cap" : 300,
-            "categories" : [
+            "cap": 300,
+            "categories": [
               {
-                "type" : "online",
-                "value" : "generic"
+                "online": "generic"
               },
-              {
-                "type" : "ewalletRetail"
-              }
+              "ewalletRetail"
             ],
-            "id" : "FD09FF58-CF4E-40CA-9B3A-69B6EE324232"
+            "id": "FD09FF58-CF4E-40CA-9B3A-69B6EE324232"
           }
         ]
       }
     ]
   },
   {
-    "iconName" : "HSBCIcon",
-    "id" : "C5502955-57DB-4D45-B9E6-3308B586426E",
-    "name" : "HSBC",
-    "templates" : [
+    "iconName": "HSBCIcon",
+    "id": "C5502955-57DB-4D45-B9E6-3308B586426E",
+    "name": "HSBC",
+    "templates": [
       {
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0901",
-        "issuer" : "HSBC",
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 600,
-        "name" : "HSBC Cashback",
-        "rules" : [
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0901",
+        "issuer": "HSBC",
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 600,
+        "name": "HSBC Cashback",
+        "rules": [
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "8D8D754F-9E93-4C7C-833C-921F8E29D0EF",
-            "monthlyCategoryCap" : 100,
-            "value" : 0.15
+            "category": "gas",
+            "id": "8D8D754F-9E93-4C7C-833C-921F8E29D0EF",
+            "monthlyCategoryCap": 100,
+            "value": 0.15
           },
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "8D32C4B7-6DDF-4EF3-9681-5C83D9BA4204",
-            "monthlyCategoryCap" : 300,
-            "value" : 0.06
+            "id": "8D32C4B7-6DDF-4EF3-9681-5C83D9BA4204",
+            "monthlyCategoryCap": 300,
+            "value": 0.06
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "67E13271-C7A8-4018-BA56-FFEA8101AF73",
-            "monthlyCategoryCap" : 200,
-            "value" : 0.06
+            "category": "schoolFees",
+            "id": "67E13271-C7A8-4018-BA56-FFEA8101AF73",
+            "monthlyCategoryCap": 200,
+            "value": 0.06
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "12398794-B96F-4243-A76E-B044149BE73F",
-            "monthlyCategoryCap" : null,
-            "value" : 0.015
+            "category": "rest",
+            "id": "12398794-B96F-4243-A76E-B044149BE73F",
+            "monthlyCategoryCap": null,
+            "value": 0.015
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "WioIcon",
-    "id" : "C7CAD5E4-7174-47C4-A9F0-83858D54690E",
-    "name" : "Wio",
-    "templates" : [
+    "iconName": "WioIcon",
+    "id": "C7CAD5E4-7174-47C4-A9F0-83858D54690E",
+    "name": "Wio",
+    "templates": [
       {
-        "backgroundImageName" : "wio-credit-card",
-        "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0A01",
-        "issuer" : "Wio",
-        "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 2500,
-        "name" : "Wio Credit",
-        "rules" : [
+        "backgroundImageName": "wio-credit-card",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0A01",
+        "issuer": "Wio",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 2500,
+        "name": "Wio Credit",
+        "rules": [
           {
-            "category" : {
-              "type" : "international"
-            },
-            "id" : "F09EAC98-4D3E-4942-9E5C-DAE6F5FCFC96",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "international",
+            "id": "F09EAC98-4D3E-4942-9E5C-DAE6F5FCFC96",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "F28478D5-3D7D-403D-8EE4-A056DABB85CD",
-            "monthlyCategoryCap" : null,
-            "value" : 0.02
+            "category": "rest",
+            "id": "F28478D5-3D7D-403D-8EE4-A056DABB85CD",
+            "monthlyCategoryCap": null,
+            "value": 0.02
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "CitibankIcon",
-    "id" : "0D7804F5-637C-4FC8-AF43-9754CBB12A79",
-    "name" : "Citibank",
-    "templates" : [
+    "iconName": "CitibankIcon",
+    "id": "0D7804F5-637C-4FC8-AF43-9754CBB12A79",
+    "name": "Citibank",
+    "templates": [
       {
-        "backgroundImageName" : "citi-cashback-credit-card",
-        "id" : "9340F7F1-7326-48E8-90F9-12A45342E4A0",
-        "issuer" : "Citibank",
-        "minimumSalaryRequirement" : 8000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 0,
-        "name" : "Citi Cashback",
-        "rules" : [
+        "backgroundImageName": "citi-cashback-credit-card",
+        "id": "9340F7F1-7326-48E8-90F9-12A45342E4A0",
+        "issuer": "Citibank",
+        "minimumSalaryRequirement": 8000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Citi Cashback",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "54D036FA-9D48-4D9D-84CB-05F875E92D79",
-            "monthlyCategoryCap" : null,
-            "value" : 0.02
+            "id": "54D036FA-9D48-4D9D-84CB-05F875E92D79",
+            "monthlyCategoryCap": null,
+            "value": 0.02
           },
           {
-            "category" : {
-              "type" : "international"
-            },
-            "id" : "F356A0DB-549F-438C-A44C-508B4E102EA2",
-            "monthlyCategoryCap" : null,
-            "value" : 0.03
+            "category": "international",
+            "id": "F356A0DB-549F-438C-A44C-508B4E102EA2",
+            "monthlyCategoryCap": null,
+            "value": 0.03
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "F1BCBCA3-DF47-4359-BEF8-6DC6E37D1CC7",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "F1BCBCA3-DF47-4359-BEF8-6DC6E37D1CC7",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "CBDIcon",
-    "id" : "1DAFDFFA-E00D-4577-A2DD-821EAB2A3DF4",
-    "name" : "Commercial Bank of Dubai",
-    "templates" : [
+    "iconName": "CBDIcon",
+    "id": "1DAFDFFA-E00D-4577-A2DD-821EAB2A3DF4",
+    "name": "Commercial Bank of Dubai",
+    "templates": [
       {
-        "id" : "BEA0F982-1D79-4A6F-B19F-8FAD37A9631F",
-        "issuer" : "Commercial Bank of Dubai",
-        "minimumSpendForCashback" : 12000,
-        "monthlyCashbackCap" : 200,
-        "name" : "CBD Super Saver",
-        "rules" : [
+        "id": "BEA0F982-1D79-4A6F-B19F-8FAD37A9631F",
+        "issuer": "Commercial Bank of Dubai",
+        "minimumSpendForCashback": 12000,
+        "monthlyCashbackCap": 200,
+        "name": "CBD Super Saver",
+        "rules": [
           {
-            "category" : {
-              "type" : "utilities"
-            },
-            "id" : "70F72EB2-81F5-421B-AE9C-BD12CEFF53BD",
-            "monthlyCategoryCap" : null,
-            "value" : 0.1
+            "category": "utilities",
+            "id": "70F72EB2-81F5-421B-AE9C-BD12CEFF53BD",
+            "monthlyCategoryCap": null,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "schoolFees"
-            },
-            "id" : "2127A6C7-9850-44A4-8E2D-5248DAB4481A",
-            "monthlyCategoryCap" : null,
-            "value" : 0.1
+            "category": "schoolFees",
+            "id": "2127A6C7-9850-44A4-8E2D-5248DAB4481A",
+            "monthlyCategoryCap": null,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "8DD9B3DA-5D03-4C1D-992D-4AB054C30E26",
-            "monthlyCategoryCap" : null,
-            "value" : 0.1
+            "id": "8DD9B3DA-5D03-4C1D-992D-4AB054C30E26",
+            "monthlyCategoryCap": null,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "34B91338-CB2C-4EDC-AFD9-04F05455C5BE",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "34B91338-CB2C-4EDC-AFD9-04F05455C5BE",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "NajmIcon",
-    "id" : "031E5E2E-0FE6-4E25-8272-5283C21BC7F4",
-    "name" : "Majid Al Futtaim \/ Najm",
-    "templates" : [
+    "iconName": "NajmIcon",
+    "id": "031E5E2E-0FE6-4E25-8272-5283C21BC7F4",
+    "name": "Majid Al Futtaim / Najm",
+    "templates": [
       {
-        "id" : "B504CFE6-826C-41A6-B8D8-82DA0F33A225",
-        "issuer" : "Majid Al Futtaim \/ Najm",
-        "minimumSpendForCashback" : 8000,
-        "monthlyCashbackCap" : 1500,
-        "name" : "Najm Platinum Cashback",
-        "rules" : [
+        "id": "B504CFE6-826C-41A6-B8D8-82DA0F33A225",
+        "issuer": "Majid Al Futtaim / Najm",
+        "minimumSpendForCashback": 8000,
+        "monthlyCashbackCap": 1500,
+        "name": "Najm Platinum Cashback",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "carrefour"
+            "category": {
+              "supermarket": "carrefour"
             },
-            "id" : "1D2F71BF-2921-4D13-A5E0-CA8304FE949E",
-            "monthlyCategoryCap" : null,
-            "value" : 0.04
+            "id": "1D2F71BF-2921-4D13-A5E0-CA8304FE949E",
+            "monthlyCategoryCap": null,
+            "value": 0.04
           },
           {
-            "category" : {
-              "type" : "cinema"
-            },
-            "id" : "6005D713-CB58-4A6C-99DE-2E5CFC7FD5B9",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "category": "cinema",
+            "id": "6005D713-CB58-4A6C-99DE-2E5CFC7FD5B9",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "20CC66F6-EAAC-4F9A-9685-EE2CC2F6EEF2",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "20CC66F6-EAAC-4F9A-9685-EE2CC2F6EEF2",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "EmiratesIslamicIcon",
-    "id" : "5A2954E4-E381-4EF5-9EED-21F136FDCDDC",
-    "name" : "Emirates Islamic",
-    "templates" : [
+    "iconName": "EmiratesIslamicIcon",
+    "id": "5A2954E4-E381-4EF5-9EED-21F136FDCDDC",
+    "name": "Emirates Islamic",
+    "templates": [
       {
-        "id" : "FE650B65-3D20-4898-B51E-FE1AF7AC1E0C",
-        "issuer" : "Emirates Islamic",
-        "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 5000,
-        "monthlyCashbackCap" : 500,
-        "name" : "Emirates Islamic RTA Card",
-        "rules" : [
+        "id": "FE650B65-3D20-4898-B51E-FE1AF7AC1E0C",
+        "issuer": "Emirates Islamic",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 5000,
+        "monthlyCashbackCap": 500,
+        "name": "Emirates Islamic RTA Card",
+        "rules": [
           {
-            "category" : {
-              "type" : "salikNol"
-            },
-            "id" : "D026A971-89F5-4269-ADB2-0C92C48F2B5C",
-            "monthlyCategoryCap" : null,
-            "value" : 0.1
+            "category": "salikNol",
+            "id": "D026A971-89F5-4269-ADB2-0C92C48F2B5C",
+            "monthlyCategoryCap": null,
+            "value": 0.1
           },
           {
-            "category" : {
-              "type" : "transportation"
-            },
-            "id" : "FA741E0C-8725-4ABD-A82B-DBAAFCD78E5D",
-            "monthlyCategoryCap" : null,
-            "value" : 0.05
+            "category": "transportation",
+            "id": "FA741E0C-8725-4ABD-A82B-DBAAFCD78E5D",
+            "monthlyCategoryCap": null,
+            "value": 0.05
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "36042077-C4C6-4B58-BCB0-89D542BD8317",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "36042077-C4C6-4B58-BCB0-89D542BD8317",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "LIVIcon",
-    "id" : "79D36BE7-93A4-4A12-A11B-2807B5F15351",
-    "name" : "LIV (Emirates NBD Digital)",
-    "templates" : [
+    "iconName": "LIVIcon",
+    "id": "79D36BE7-93A4-4A12-A11B-2807B5F15351",
+    "name": "LIV (Emirates NBD Digital)",
+    "templates": [
       {
-        "backgroundImageName" : "Liv",
-        "id" : "6E9B82A8-29D1-4097-BF0F-22D8D6B5F6C3",
-        "issuer" : "LIV \/ Emirates NBD",
-        "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 750,
-        "name" : "LIV Casdhback Card",
-        "rules" : [
+        "backgroundImageName": "Liv",
+        "id": "6E9B82A8-29D1-4097-BF0F-22D8D6B5F6C3",
+        "issuer": "LIV / Emirates NBD",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 750,
+        "name": "LIV Casdhback Card",
+        "rules": [
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "F715A0A5-87E0-4938-A670-69189BFBD83D",
-            "monthlyCategoryCap" : null,
-            "value" : 0.02
+            "category": "rest",
+            "id": "F715A0A5-87E0-4938-A670-69189BFBD83D",
+            "monthlyCategoryCap": null,
+            "value": 0.02
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       },
       {
-        "backgroundImageName" : "LivPlus",
-        "id" : "6E9B82A8-29D1-4097-BF0F-22D8D6B5F6C4",
-        "issuer" : "LIV \/ Emirates NBD",
-        "minimumSalaryRequirement" : 10000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 1500,
-        "name" : "LIV Casdhback+ Card",
-        "rules" : [
+        "backgroundImageName": "LivPlus",
+        "id": "6E9B82A8-29D1-4097-BF0F-22D8D6B5F6C4",
+        "issuer": "LIV / Emirates NBD",
+        "minimumSalaryRequirement": 10000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 1500,
+        "name": "LIV Casdhback+ Card",
+        "rules": [
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "814C2C0F-7F19-4F7E-B613-3E3C386AFB8E",
-            "monthlyCategoryCap" : null,
-            "value" : 0.04
+            "category": "rest",
+            "id": "814C2C0F-7F19-4F7E-B613-3E3C386AFB8E",
+            "monthlyCategoryCap": null,
+            "value": 0.04
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "StanChartIcon",
-    "id" : "D47BF6A0-5F12-40A2-8818-BA064DBD943D",
-    "name" : "Standard Chartered",
-    "templates" : [
+    "iconName": "StanChartIcon",
+    "id": "D47BF6A0-5F12-40A2-8818-BA064DBD943D",
+    "name": "Standard Chartered",
+    "templates": [
       {
-        "id" : "A6EF4926-2162-4351-883D-11C5B31A56E0",
-        "issuer" : "Standard Chartered",
-        "minimumSpendForCashback" : 8000,
-        "monthlyCashbackCap" : 400,
-        "name" : "Manhattan\/SimplyCash",
-        "rules" : [
+        "id": "A6EF4926-2162-4351-883D-11C5B31A56E0",
+        "issuer": "Standard Chartered",
+        "minimumSpendForCashback": 8000,
+        "monthlyCashbackCap": 400,
+        "name": "Manhattan/SimplyCash",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "640FC8C8-7779-4722-8858-883B56596827",
-            "monthlyCategoryCap" : null,
-            "value" : 0.02
+            "id": "640FC8C8-7779-4722-8858-883B56596827",
+            "monthlyCategoryCap": null,
+            "value": 0.02
           },
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "B81C039A-3572-4A97-9C49-31336BB748CC",
-            "monthlyCategoryCap" : null,
-            "value" : 0.02
+            "id": "B81C039A-3572-4A97-9C49-31336BB748CC",
+            "monthlyCategoryCap": null,
+            "value": 0.02
           },
           {
-            "category" : {
-              "type" : "gas"
-            },
-            "id" : "64457CC1-EC90-4144-9695-EF63B6DB4516",
-            "monthlyCategoryCap" : null,
-            "value" : 0.02
+            "category": "gas",
+            "id": "64457CC1-EC90-4144-9695-EF63B6DB4516",
+            "monthlyCategoryCap": null,
+            "value": 0.02
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "075F2E36-742E-441F-9129-B07C86DB52EB",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "075F2E36-742E-441F-9129-B07C86DB52EB",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "SNBIcon",
-    "id" : "3E9B3F73-ABF3-445C-9D79-B9E3CC30A553",
-    "name" : "SNB \/ Samba",
-    "templates" : [
+    "iconName": "SNBIcon",
+    "id": "3E9B3F73-ABF3-445C-9D79-B9E3CC30A553",
+    "name": "SNB / Samba",
+    "templates": [
       {
-        "id" : "1D6A5B64-0E4B-426A-BBB5-94DB28236A49",
-        "issuer" : "SNB (Samba) UAE",
-        "minimumSpendForCashback" : 7000,
-        "monthlyCashbackCap" : 300,
-        "name" : "SNB (Samba) Classic",
-        "rules" : [
+        "id": "1D6A5B64-0E4B-426A-BBB5-94DB28236A49",
+        "issuer": "SNB (Samba) UAE",
+        "minimumSpendForCashback": 7000,
+        "monthlyCashbackCap": 300,
+        "name": "SNB (Samba) Classic",
+        "rules": [
           {
-            "category" : {
-              "type" : "supermarket",
-              "value" : "generic"
+            "category": {
+              "supermarket": "generic"
             },
-            "id" : "3D6A96D2-D79C-4953-85C4-5E3318B33D5A",
-            "monthlyCategoryCap" : null,
-            "value" : 0.02
+            "id": "3D6A96D2-D79C-4953-85C4-5E3318B33D5A",
+            "monthlyCategoryCap": null,
+            "value": 0.02
           },
           {
-            "category" : {
-              "type" : "dining",
-              "value" : "generic"
+            "category": {
+              "dining": "generic"
             },
-            "id" : "BAEE68FC-BCA8-4E03-AA0C-56E124EA2F2F",
-            "monthlyCategoryCap" : null,
-            "value" : 0.02
+            "id": "BAEE68FC-BCA8-4E03-AA0C-56E124EA2F2F",
+            "monthlyCategoryCap": null,
+            "value": 0.02
           },
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "386805B9-4EC4-4623-8889-CBE2BFFB1246",
-            "monthlyCategoryCap" : null,
-            "value" : 0.01
+            "category": "rest",
+            "id": "386805B9-4EC4-4623-8889-CBE2BFFB1246",
+            "monthlyCategoryCap": null,
+            "value": 0.01
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   },
   {
-    "iconName" : "InvestBankIcon",
-    "id" : "C9CA7F5A-BA9C-4A1D-9FC5-4C67F4A744B9",
-    "name" : "Invest Bank",
-    "templates" : [
+    "iconName": "InvestBankIcon",
+    "id": "C9CA7F5A-BA9C-4A1D-9FC5-4C67F4A744B9",
+    "name": "Invest Bank",
+    "templates": [
       {
-        "backgroundImageName" : "investbank-world-credit-card",
-        "id" : "CB302C9D-10CB-4BCA-A9E2-5EEEAA92DA5D",
-        "issuer" : "Invest Bank",
-        "minimumSalaryRequirement" : 25000,
-        "minimumSpendForCashback" : 0,
-        "monthlyCashbackCap" : 1500,
-        "name" : "Invest Bank World",
-        "rules" : [
+        "backgroundImageName": "investbank-world-credit-card",
+        "id": "CB302C9D-10CB-4BCA-A9E2-5EEEAA92DA5D",
+        "issuer": "Invest Bank",
+        "minimumSalaryRequirement": 25000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 1500,
+        "name": "Invest Bank World",
+        "rules": [
           {
-            "category" : {
-              "type" : "rest"
-            },
-            "id" : "24F810DC-C00E-4081-AE32-E345C75A08F6",
-            "monthlyCategoryCap" : null,
-            "value" : 0.03
+            "category": "rest",
+            "id": "24F810DC-C00E-4081-AE32-E345C75A08F6",
+            "monthlyCategoryCap": null,
+            "value": 0.03
           }
         ],
-        "sharedCaps" : [
-
-        ]
+        "sharedCaps": []
       }
     ]
   }
