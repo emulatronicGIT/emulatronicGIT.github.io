@@ -138,6 +138,81 @@
           }
         ],
         "sharedCaps": []
+      },
+      {
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0005",
+        "issuer": "First Abu Dhabi Bank",
+        "minimumSalaryRequirement": 25000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 1800,
+        "name": "FAB Travel",
+        "rules": [
+          {
+            "category": {
+              "supermarket": "generic"
+            },
+            "id": "40f5fdc8-4085-458e-a6ea-65af2f23c435",
+            "monthlyCategoryCap": null,
+            "value": 0.0016
+          },
+          {
+            "category": "travel",
+            "id": "1abcad9a-e245-451a-91c2-2c21f9b0ff1e",
+            "monthlyCategoryCap": null,
+            "value": 0.12
+          },
+          {
+              "category": {
+                "hotels": "generic"
+              },
+            "id": "e34d0112-454b-461c-bbd6-92da3ec3f804",
+            "monthlyCategoryCap": null,
+            "value": 0.12
+          },
+          {
+            "category": "telecombills",
+            "id": "32458bbf-9708-449a-848e-2452e4970c72",
+            "monthlyCategoryCap": null,
+            "value": 0.0016
+          },
+          {
+            "category": "gas",
+            "id": "6ee97982-6770-4f90-b381-c26aab2ea392",
+            "monthlyCategoryCap": null,
+            "value": 0.0016
+          },
+          {
+            "category": "schoolFees",
+            "id": "d0704ebc-9b35-4a40-b8aa-6b32118ac6f3",
+            "monthlyCategoryCap": null,
+            "value": 0.0016
+          },
+          {
+            "category": "utilities",
+            "id": "d1d2c4e6-9922-49b0-8f5a-db992ca50940",
+            "monthlyCategoryCap": null,
+            "value": 0.0016
+          },
+          {
+            "category": "transportation",
+            "id": "a052265c-3da3-46d1-b13c-56d33f039d67",
+            "monthlyCategoryCap": null,
+            "value": 0.0016
+          },
+          {
+            "category": "insurance",
+            "id": "ec8e61af-763f-4b03-968a-41d09ccf102e",
+            "monthlyCategoryCap": null,
+            "value": 0.0016
+          },
+          {
+            "category": "rest",
+            "id": "32458bbf-9708-449a-848e-2452e4970c72",
+            "monthlyCategoryCap": null,
+            "value": 0.01
+          }
+        ],
+        "sharedCaps": []
       }
     ]
   },
