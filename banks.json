@@ -488,7 +488,24 @@
           }
         ],
         "sharedCaps": []
+      },
+      {
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0107",
+        "issuer": "Abu Dhabi Commercial Bank",
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Test ADCB",
+        "rules": [
+          {
+            "category": "general",
+            "id": "37C14994-6375-4B6A-A3E4-D50B3C78854F",
+            "monthlyCategoryCap": null,
+            "value": 0.1
+          }
+        ],
+        "sharedCaps": []
       }
+
     ]
   },
   {
