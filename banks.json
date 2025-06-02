@@ -161,7 +161,7 @@
             },
             "id": "BD1B4D16-306E-4E87-8B9E-32299750FB1A",
             "monthlyCategoryCap": null,
-            "value": 0.15
+            "value": 0.05
           },
           {
             "category": {
@@ -1123,7 +1123,7 @@
             },
             "id": "33B69DA5-0B0C-42E8-87C6-F37A3B0159AB",
             "monthlyCategoryCap": null,
-            "value": 0.1
+            "value": 0.11
           },
           {
             "category": "ewalletRetail",
