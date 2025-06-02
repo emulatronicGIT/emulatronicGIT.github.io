@@ -497,8 +497,8 @@
         "name": "Test ADCB",
         "rules": [
           {
-            "category": "general",
-            "id": "37C14994-6375-4B6A-A3E4-D50B3C78854F",
+            "category": "rest",
+            "id": "119a0719-3850-4361-9687-d3cc2b16716f",
             "monthlyCategoryCap": null,
             "value": 0.1
           }
