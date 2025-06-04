@@ -1,7 +1,7 @@
 [
   {
     "iconName": "FABIcon",
-    "id": "7695B30E-02E9-4029-BA81-C52FCB9C4F81",
+    "id": "A0BF8A68-9042-4567-BA16-8A8856EED3B3",
     "name": "First Abu Dhabi Bank",
     "templates": [
       {
@@ -17,7 +17,7 @@
             "category": {
               "online": "alfuttaim"
             },
-            "id": "F5523F11-9F42-47CD-BA91-FB51BF2E7A09",
+            "id": "1A152F55-0BE6-4F5D-B507-82D548E1B60A",
             "monthlyCategoryCap": null,
             "value": 0.06
           },
@@ -25,13 +25,13 @@
             "category": {
               "dining": "generic"
             },
-            "id": "8B3971DC-5553-4DC8-AC1C-19A11E6E9477",
+            "id": "AC1DF0FF-C3CE-45C7-8C4E-EE19D649D67C",
             "monthlyCategoryCap": null,
             "value": 0.04
           },
           {
             "category": "rest",
-            "id": "2E30EB23-A318-49E4-9AE8-3370DCD95C65",
+            "id": "970E8C99-4194-4669-B535-C29BAA191DC9",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -51,7 +51,7 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "767C750F-3561-431D-90DD-3A9DADE00836",
+            "id": "5CB6375D-F01E-496A-8FE0-AB56223E8EE1",
             "monthlyCategoryCap": 150,
             "value": 0.05
           },
@@ -59,25 +59,25 @@
             "category": {
               "dining": "generic"
             },
-            "id": "2A364352-BFAF-479D-8A08-D6AA300916CF",
+            "id": "A179089A-CA95-4AA1-B14A-2D659074EAED",
             "monthlyCategoryCap": 150,
             "value": 0.05
           },
           {
             "category": "fashion",
-            "id": "BF30C14A-2853-43EC-97E7-6897E3D387B6",
+            "id": "4FF040A6-FA77-40E8-A48F-9650270E9508",
             "monthlyCategoryCap": 150,
             "value": 0.05
           },
           {
             "category": "international",
-            "id": "684AD279-A4EA-4195-8FCA-4868BDC16884",
+            "id": "2A2556B6-1012-44E8-8D7A-E39B99FDA20A",
             "monthlyCategoryCap": null,
             "value": 0.03
           },
           {
             "category": "rest",
-            "id": "8DB72B9A-28ED-443B-818A-81DADF327F2F",
+            "id": "7BBACBD1-E114-4BD0-828D-13EC9C1D548B",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -93,13 +93,13 @@
         "rules": [
           {
             "category": "travel",
-            "id": "C59BAC53-20F5-465C-BDC8-66D22C1F5CE9",
+            "id": "1783DA6E-11D7-48E3-AFF7-0FD8A1415537",
             "monthlyCategoryCap": null,
             "value": 0.03
           },
           {
             "category": "rest",
-            "id": "63E9234E-6E99-46B5-823B-DB44B642FF6F",
+            "id": "565FB674-EE06-474F-94A1-3F2A2C8576BD",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -118,7 +118,7 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "A8CD1F1F-8079-4375-AE09-88052299AB37",
+            "id": "8E7C43AD-6D34-419E-B0A8-FBDD60570DD7",
             "monthlyCategoryCap": null,
             "value": 0.02
           },
@@ -126,13 +126,13 @@
             "category": {
               "dining": "generic"
             },
-            "id": "21324AC2-8C18-4CDA-BEED-30F9B452AA2C",
+            "id": "267BE74D-20E9-4456-A3E6-CE3974C6BBA9",
             "monthlyCategoryCap": null,
             "value": 0.02
           },
           {
             "category": "rest",
-            "id": "53525FB4-161B-435A-ABAC-C1ECCFE2188D",
+            "id": "C7E14C25-94A7-4687-ACEA-AE2723279740",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -150,7 +150,7 @@
         "rules": [
           {
             "category": "travel",
-            "id": "02572BDC-DAB7-459A-908C-B5F43BBFA343",
+            "id": "2A953788-2B1F-408A-BDC0-5C1CB7FF3419",
             "monthlyCategoryCap": null,
             "value": 0.12
           },
@@ -158,13 +158,13 @@
             "category": {
               "hotels": "generic"
             },
-            "id": "B9D2776B-618A-4F08-B6E8-8335503F133E",
+            "id": "6B4B848A-466D-43CF-AFBA-B9297B65CEDE",
             "monthlyCategoryCap": null,
             "value": 0.12
           },
           {
             "category": "rest",
-            "id": "40B9FC21-B444-4444-AB54-0FA66047C139",
+            "id": "ED98DC10-4940-4709-BBAE-26D6AD0E6970",
             "monthlyCategoryCap": null,
             "value": 0.01
           },
@@ -172,43 +172,43 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "E657472B-9E38-4DA7-8CF7-5941A6B6BA61",
+            "id": "03EB6869-FEB8-4014-A105-345EAF67278C",
             "monthlyCategoryCap": null,
             "value": 0.0016
           },
           {
             "category": "telecomBills",
-            "id": "3284D8C8-7406-490D-A98C-451EFC2CE2D8",
+            "id": "6A61EE97-E9A8-4858-903D-DFA9FCB90658",
             "monthlyCategoryCap": null,
             "value": 0.0016
           },
           {
             "category": "gas",
-            "id": "BEF64206-DB57-4D03-8A84-79EB0C2DD08D",
+            "id": "255ECEDE-418C-46AB-9F0D-EFA479FF36CA",
             "monthlyCategoryCap": null,
             "value": 0.0016
           },
           {
             "category": "schoolFees",
-            "id": "61D0B2F5-E3CF-4A61-A549-950A73015893",
+            "id": "92CA134E-EE1D-4C37-8E90-EB7276A75131",
             "monthlyCategoryCap": null,
             "value": 0.0016
           },
           {
             "category": "utilities",
-            "id": "84651483-982B-4A47-A8BA-36358B45D194",
+            "id": "77C25F54-CC1E-4975-B1B9-A936955B7357",
             "monthlyCategoryCap": null,
             "value": 0.0016
           },
           {
             "category": "transportation",
-            "id": "04D14395-9B6C-4C6D-84B4-015F7BB3A14A",
+            "id": "6B5482C2-609B-483E-8B51-EEE7E7865D6B",
             "monthlyCategoryCap": null,
             "value": 0.0016
           },
           {
             "category": "insurance",
-            "id": "404ECC2D-2170-43B2-86D1-C30D0C12278B",
+            "id": "FC5B600D-B3C7-4DE3-801F-BE92B557DC96",
             "monthlyCategoryCap": null,
             "value": 0.0016
           }
@@ -219,7 +219,7 @@
   },
   {
     "iconName": "ADCBIcon",
-    "id": "9A67C90D-FA77-4D77-BA0B-ADB596EA7E5B",
+    "id": "9E6AA55E-E133-4571-9BFC-5F51CD292CAA",
     "name": "Abu Dhabi Commercial Bank",
     "templates": [
       {
@@ -235,7 +235,7 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "D528F69A-80CE-447F-8D1E-8F1DEC60A2CF",
+            "id": "E7DBB7B7-ED55-4C68-ADF4-C2AAA0B29EA3",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
@@ -243,43 +243,43 @@
             "category": {
               "dining": "generic"
             },
-            "id": "0E981522-36C7-45F4-8A82-3BDB051E1011",
+            "id": "38596506-F028-46F1-8D26-871D5675B1E8",
             "monthlyCategoryCap": null,
             "value": 0.06
           },
           {
             "category": "utilities",
-            "id": "AFA1020D-9B73-454B-95EC-739A6FD2B9E6",
+            "id": "DDFA6354-5E96-4080-AA88-56C0C5B1E174",
             "monthlyCategoryCap": null,
             "value": 0.03
           },
           {
             "category": "telecomBills",
-            "id": "6E047E30-3EFB-4E6E-8A41-B3B0A87FA710",
+            "id": "C68B58AF-8B43-4539-944A-469428F3CBB0",
             "monthlyCategoryCap": null,
             "value": 0.03
           },
           {
             "category": "gas",
-            "id": "D0B20838-8B45-49CA-A70F-5532B98157C4",
+            "id": "38CBA24E-1D84-4D90-9288-15E1C8912171",
             "monthlyCategoryCap": null,
             "value": 0.03
           },
           {
             "category": "salikNol",
-            "id": "1BA984D7-DB2D-4AE4-8C9D-75884F499D1F",
+            "id": "F8309970-973D-4C6F-AD50-32895FC06F6B",
             "monthlyCategoryCap": null,
             "value": 0.03
           },
           {
             "category": "international",
-            "id": "98B3FADC-7729-4464-BF98-9117A9981DB4",
+            "id": "C0AE9AC3-A3AC-4AE8-A600-B400F4B72D3A",
             "monthlyCategoryCap": null,
             "value": 0.01
           },
           {
             "category": "rest",
-            "id": "60BACFF3-3533-4428-8AA7-EBAE838EF685",
+            "id": "A09234D2-BEB8-4175-9AFA-6E3925DE1D85",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -297,7 +297,7 @@
         "rules": [
           {
             "category": "travel",
-            "id": "E358443C-4CDC-4D69-8B6B-DA2E0B2EF96D",
+            "id": "5BFE5B6C-2B26-44AA-9E1A-6DFF148B42C8",
             "monthlyCategoryCap": null,
             "value": 0.1
           },
@@ -305,7 +305,7 @@
             "category": {
               "hotels": "generic"
             },
-            "id": "A7D96BAC-1464-4CF2-A72B-F1254FFD8975",
+            "id": "6BCC5232-C1B1-4FDA-848C-986E1275206C",
             "monthlyCategoryCap": null,
             "value": 0.1
           },
@@ -313,13 +313,19 @@
             "category": {
               "hotels": "booking"
             },
-            "id": "73AC1AF7-F38A-4B01-99B9-7385C2661D5B",
+            "id": "60ECDCA0-5AD0-44B3-89A5-2DA796A39988",
             "monthlyCategoryCap": null,
             "value": 0.1
           },
           {
+            "category": "international",
+            "id": "2157F1AD-69F3-47F7-B818-61884E455BA9",
+            "monthlyCategoryCap": null,
+            "value": 0
+          },
+          {
             "category": "rest",
-            "id": "D51ACF0E-5D37-44F7-BE2D-F8DFA7EBCB84",
+            "id": "67C047D4-49A4-4442-86D6-F1C88B97A1CD",
             "monthlyCategoryCap": null,
             "value": 0.015
           }
@@ -339,37 +345,37 @@
             "category": {
               "supermarket": "lulu"
             },
-            "id": "A2345697-04C4-49B5-BADF-F4078FA0E2E0",
+            "id": "FEF7FB98-F9D0-493D-A03D-C17400E160AF",
             "monthlyCategoryCap": null,
             "value": 0.08
           },
           {
             "category": "gas",
-            "id": "A32E9907-863A-4CD7-82AB-5BAE100C6574",
+            "id": "A728A280-DB88-4985-ABC1-79CC628BB884",
             "monthlyCategoryCap": null,
             "value": 0.002
           },
           {
             "category": "schoolFees",
-            "id": "03D7537D-F049-40A7-853E-542593AE17B1",
+            "id": "5654F422-69BF-43DF-B431-36C17434B0A4",
             "monthlyCategoryCap": null,
             "value": 0.002
           },
           {
             "category": "telecomBills",
-            "id": "FCFB89DD-B3A8-402B-B07B-458B69A74F9E",
+            "id": "4830FCE3-7A14-45D3-AD18-E173C13D9CB1",
             "monthlyCategoryCap": null,
             "value": 0.002
           },
           {
             "category": "realEstate",
-            "id": "287129B5-63B1-40AE-84C8-E77A109318CD",
+            "id": "499E0BBA-DD10-4FD4-A5F6-2D237F3F5B84",
             "monthlyCategoryCap": null,
             "value": 0.002
           },
           {
             "category": "transportation",
-            "id": "B4F1C464-8F2F-4C48-B47C-6C5D73B604AE",
+            "id": "94F232C2-67F8-4627-9334-C76C642CD1D8",
             "monthlyCategoryCap": null,
             "value": 0.002
           },
@@ -377,19 +383,19 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "A48515AE-5432-45A7-9631-E9EBA6671D93",
+            "id": "73E8BD85-782A-4377-A46E-FE7AF5769DFE",
             "monthlyCategoryCap": null,
             "value": 0.004
           },
           {
             "category": "autoServicing",
-            "id": "B4CCAC71-F077-457C-B5AE-3F35A85F8E46",
+            "id": "857EE86C-9C57-4151-8408-F6C725AEF87E",
             "monthlyCategoryCap": null,
             "value": 0.004
           },
           {
             "category": "insurance",
-            "id": "61A05F2C-F83D-4B83-94B8-AD855914F106",
+            "id": "EAF08E71-3D64-42B0-B8F9-24EBCDFC2563",
             "monthlyCategoryCap": null,
             "value": 0.004
           }
@@ -409,37 +415,37 @@
             "category": {
               "supermarket": "lulu"
             },
-            "id": "F62F5420-3341-47C9-B4E4-EDE0FDBE28A4",
+            "id": "A47A2763-F37A-46EE-B183-182308250065",
             "monthlyCategoryCap": null,
             "value": 0.035
           },
           {
             "category": "gas",
-            "id": "1B4C6D4D-A19F-4C0D-9DCE-8AAD442DA96D",
+            "id": "6D9402A5-7C7D-441E-8E14-4001EF02B3EC",
             "monthlyCategoryCap": null,
             "value": 0.002
           },
           {
             "category": "schoolFees",
-            "id": "679FF2F3-9B6B-4E6E-8E54-489A65FD409A",
+            "id": "4F007A60-5561-4411-8536-3259844BF895",
             "monthlyCategoryCap": null,
             "value": 0.002
           },
           {
             "category": "telecomBills",
-            "id": "54379A04-F021-41EC-8AE2-5E1866FEB111",
+            "id": "ABE72416-18C9-45AE-93F4-9961ABB76030",
             "monthlyCategoryCap": null,
             "value": 0.002
           },
           {
             "category": "realEstate",
-            "id": "8B0E201C-B40A-4C36-846F-22C54E8B3E80",
+            "id": "7CED9120-7425-41C8-A69C-CA6B6B3B4895",
             "monthlyCategoryCap": null,
             "value": 0.002
           },
           {
             "category": "transportation",
-            "id": "596AD2BD-43EE-4299-BED9-47B392272947",
+            "id": "7C05D161-4C2E-48B4-960E-F779A2E1163A",
             "monthlyCategoryCap": null,
             "value": 0.002
           },
@@ -447,19 +453,19 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "2584004C-44E9-4443-8B93-F7A1D3DFD832",
+            "id": "9A2F7B71-2EA3-4E8F-9D08-BCE315A55EBE",
             "monthlyCategoryCap": null,
             "value": 0.004
           },
           {
             "category": "autoServicing",
-            "id": "2729D7FC-0BA6-4833-B302-74B1A210FD7D",
+            "id": "A8FD7FFB-38A6-4771-86D0-6FE08C1C9E45",
             "monthlyCategoryCap": null,
             "value": 0.004
           },
           {
             "category": "insurance",
-            "id": "30B61D22-8834-4D6D-924A-147D50B447B4",
+            "id": "8B05846D-0282-45BC-BC0A-6A480096C2AC",
             "monthlyCategoryCap": null,
             "value": 0.004
           }
@@ -479,7 +485,7 @@
             "category": {
               "dining": "talabat"
             },
-            "id": "45F15B2E-44F2-4F11-BF48-83869A14DFCB",
+            "id": "1FC6022B-BB70-4AF4-A46C-B71C24717865",
             "monthlyCategoryCap": 350,
             "value": 0.35
           },
@@ -487,55 +493,55 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "33ECECC9-54CE-4608-9D2F-06562814239C",
+            "id": "54AB44A5-E566-434F-901E-B109B4060624",
             "monthlyCategoryCap": null,
             "value": 0.0035
           },
           {
             "category": "gas",
-            "id": "563D3118-7627-4636-B3ED-8DF73F071366",
+            "id": "C6FF5F38-201A-4F00-A1F2-8DBF98266059",
             "monthlyCategoryCap": null,
             "value": 0.0035
           },
           {
             "category": "schoolFees",
-            "id": "0D8398BE-9835-4655-8E10-4C3849231B21",
+            "id": "F7FF0F8E-33AE-41A2-8545-0448691DDF81",
             "monthlyCategoryCap": null,
             "value": 0.0035
           },
           {
             "category": "telecomBills",
-            "id": "4E127114-D456-42AF-BD6A-1AB317561A50",
+            "id": "29C6FFAA-D18E-47F1-A94F-DA7C6347EFEF",
             "monthlyCategoryCap": null,
             "value": 0.0035
           },
           {
             "category": "realEstate",
-            "id": "0E280ACA-2A62-4053-A642-4BE52A245335",
+            "id": "F6693026-A0FA-45BA-8198-706138F5A0DE",
             "monthlyCategoryCap": null,
             "value": 0.0035
           },
           {
             "category": "transportation",
-            "id": "63C70CDA-11BA-4280-8073-3999649655E0",
+            "id": "1781C689-7C38-48B8-91C6-BE4BF8A9BA69",
             "monthlyCategoryCap": null,
             "value": 0.0035
           },
           {
             "category": "autoServicing",
-            "id": "42FDAFEF-77EC-4B46-A027-33AC1F60D39F",
+            "id": "B76FD1E2-8B9F-4001-BB6B-0006AE193DE8",
             "monthlyCategoryCap": null,
             "value": 0.0035
           },
           {
             "category": "insurance",
-            "id": "BB68DC34-BD42-438B-9BED-79A7DA3238E8",
+            "id": "C62F481D-729B-403C-8F12-9CA9B23A23D6",
             "monthlyCategoryCap": null,
             "value": 0.0035
           },
           {
             "category": "rest",
-            "id": "AEB6FBED-95DA-4C52-9D38-22A490C60754",
+            "id": "16362258-2515-4014-B499-CCC3C328025B",
             "monthlyCategoryCap": null,
             "value": 0.0125
           }
@@ -552,13 +558,13 @@
         "rules": [
           {
             "category": "shukran",
-            "id": "3F85D602-98EB-4C50-A579-223917D7404F",
+            "id": "1CFB5BF2-2874-4110-80B5-6958AA4CCF1A",
             "monthlyCategoryCap": null,
             "value": 0.1
           },
           {
             "category": "rest",
-            "id": "55627CEC-3C3B-4494-925B-41F34FE4BD1A",
+            "id": "B0702B34-DBB1-45BD-A0EA-574DA647EFC3",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -569,7 +575,7 @@
   },
   {
     "iconName": "ENBDIcon",
-    "id": "61AC717F-9277-468E-B3DC-376EE7E0BA9E",
+    "id": "60EB735F-C1B4-4232-A4D9-FE5FC7120D64",
     "name": "Emirates NBD",
     "templates": [
       {
@@ -585,19 +591,19 @@
             "category": {
               "supermarket": "carrefour"
             },
-            "id": "EC77CB64-9A70-4D81-B63B-689665FD800B",
+            "id": "15917D1A-A3C7-42CA-AA0F-57DB44BDEC44",
             "monthlyCategoryCap": null,
             "value": 0.08
           },
           {
             "category": "share",
-            "id": "6F5DDF57-4F45-4AE1-98ED-07578A4143F3",
+            "id": "D96ADD3C-5488-47C7-AEE5-F3E5C010D34B",
             "monthlyCategoryCap": null,
             "value": 0.08
           },
           {
             "category": "rest",
-            "id": "C6BB15B6-E0C4-445C-A671-04FDA4A08714",
+            "id": "ED3FBC16-AC20-4539-9E5D-945AF96A6E38",
             "monthlyCategoryCap": null,
             "value": 0.015
           }
@@ -617,31 +623,31 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "BA6C6377-8DC8-42CE-9C1B-00AED240258D",
+            "id": "B46E632C-B16D-4EF6-8763-8D3D3C6D255D",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
           {
             "category": "utilities",
-            "id": "F2066062-BA1D-49B2-8EF7-6B12B8535607",
+            "id": "1C38FB48-F7DD-4850-88AE-F8AC24B5FB29",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
           {
             "category": "schoolFees",
-            "id": "99339F98-F5D7-4FBD-9AE2-FEC861D1410F",
+            "id": "8D62E134-A6CC-441D-B20F-9BB2E3EE6AE8",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
           {
             "category": "gas",
-            "id": "03CC4DDA-80A8-4FB2-BB2C-B4EA9EC12029",
+            "id": "D0E8B2C4-5CFE-482F-A805-419AE52FAB04",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
           {
             "category": "rest",
-            "id": "C41B1F9A-FED9-4C5F-B33D-75DEBD5D498B",
+            "id": "FD406C4F-6EBF-49BB-959E-6061AA82F698",
             "monthlyCategoryCap": null,
             "value": 0.005
           }
@@ -661,13 +667,13 @@
             "category": {
               "dining": "noon"
             },
-            "id": "4245F407-E859-4B3B-8BF3-89019457D9D0",
+            "id": "2FDD221E-697F-4141-912C-5DED1288594A",
             "monthlyCategoryCap": null,
             "value": 0.2
           },
           {
             "category": "rest",
-            "id": "41EB68CD-033F-42F0-8A30-9AD7571A99D7",
+            "id": "0B118DB8-0165-470D-B181-80D0D1EE20AC",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -678,7 +684,7 @@
   },
   {
     "iconName": "DIBIcon",
-    "id": "2F47D8E2-4103-4D07-9F2B-20ADF40BB535",
+    "id": "B386EC77-BB28-4D5F-BFE5-6C4C454F9759",
     "name": "Dubai Islamic Bank",
     "templates": [
       {
@@ -686,27 +692,27 @@
         "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0301",
         "issuer": "Dubai Islamic Bank",
         "minimumSalaryRequirement": 5000,
-        "minimumSpendForCashback": 0,
-        "monthlyCashbackCap": 0,
+        "minimumSpendForCashback": 8000,
+        "monthlyCashbackCap": 300,
         "name": "SHAMS Infinite Covered Card",
         "rules": [
           {
             "category": {
               "dining": "generic"
             },
-            "id": "9BFEECD5-169E-402D-9B90-A0317F460A0B",
+            "id": "82FF39D4-D855-46C2-9FB3-848FC4D1DB9A",
             "monthlyCategoryCap": 1000,
             "value": 0.05
           },
           {
             "category": "travel",
-            "id": "42021414-27B8-452B-9DA6-428B25958331",
+            "id": "D4F05B22-8E45-41CC-BCD4-0DCF4D2A9D0A",
             "monthlyCategoryCap": 1000,
             "value": 0.05
           },
           {
             "category": "international",
-            "id": "2DEA494C-9FE8-44D8-8BF3-3CF29AD65046",
+            "id": "18184EC2-31FB-4DB9-9156-57D2A2918413",
             "monthlyCategoryCap": null,
             "value": 0.02
           },
@@ -714,49 +720,49 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "B83B55B4-3671-4453-8923-5B442C0AB356",
+            "id": "EFB10269-5D73-40A7-9A1E-C7AC2307C540",
             "monthlyCategoryCap": null,
             "value": 0.003
           },
           {
             "category": "utilities",
-            "id": "B077A273-2174-4301-B34C-93A36A46BAD9",
+            "id": "213D16F0-78C1-4555-BEAF-EAE2E8CC7745",
             "monthlyCategoryCap": null,
             "value": 0.003
           },
           {
             "category": "autoServicing",
-            "id": "86FDA6CF-284D-4488-9CDC-697FA8F5AD4E",
+            "id": "60A13796-6B32-470D-909D-AF299B806199",
             "monthlyCategoryCap": null,
             "value": 0.003
           },
           {
             "category": "schoolFees",
-            "id": "9741D077-72B7-4BCA-BDA5-1F3E5CCD55EC",
+            "id": "CF036727-DA7E-45DD-9EFE-28432B33470E",
             "monthlyCategoryCap": null,
             "value": 0.003
           },
           {
             "category": "gas",
-            "id": "0A2D37A1-913F-4DA4-8B37-BC266E11A4DD",
+            "id": "5F051FB8-1777-4E1D-A77F-43AFD9299685",
             "monthlyCategoryCap": null,
             "value": 0.003
           },
           {
             "category": "realEstate",
-            "id": "D947CD98-CEBD-40CC-BF8B-C79E37C8D667",
+            "id": "4A0F6175-771B-4B08-A893-FE22F29229A1",
             "monthlyCategoryCap": null,
             "value": 0.003
           },
           {
             "category": "telecomBills",
-            "id": "A44A21B5-BFFD-4B42-AB5E-592582906D27",
+            "id": "CB98A524-353B-46FB-8879-8EBC418C7E09",
             "monthlyCategoryCap": null,
             "value": 0.003
           },
           {
             "category": "rest",
-            "id": "8CA0A113-781B-49A5-9D41-4010BC19C7F5",
+            "id": "5A1358C7-D5AA-422D-8978-D0CD8EAE9F56",
             "monthlyCategoryCap": null,
             "value": 0.015
           }
@@ -767,7 +773,7 @@
   },
   {
     "iconName": "MashreqIcon",
-    "id": "B3B2AFB6-A89E-4909-BEEC-B2EE184D4369",
+    "id": "5DEB497F-8982-4A81-8022-B1BB01C79D74",
     "name": "Mashreq Bank",
     "templates": [
       {
@@ -782,49 +788,49 @@
             "category": {
               "dining": "noon"
             },
-            "id": "4868F4F6-72AD-48CE-BD96-74C0D7072FE4",
+            "id": "8770D273-39D3-4C7D-9236-4801D1F471D0",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
           {
             "category": "international",
-            "id": "955EDDEA-0A57-4012-9DFD-ECC96367274C",
+            "id": "2EABB96A-EBFD-4603-9570-AC944374F6F0",
             "monthlyCategoryCap": null,
             "value": 0.01
           },
           {
             "category": "rest",
-            "id": "1C9CDABA-6CA9-4CD1-A8CF-48FC8B9BEBFE",
+            "id": "AEA45B16-B7E2-46F5-A22E-364B1BB76486",
             "monthlyCategoryCap": null,
             "value": 0.01
           },
           {
             "category": "utilities",
-            "id": "A6DB85AF-6D79-4763-BFD9-4BFA45878348",
+            "id": "CCACE87E-2124-496F-9C1C-6EF310576662",
             "monthlyCategoryCap": null,
             "value": 0.0033
           },
           {
             "category": "schoolFees",
-            "id": "0AFDF295-C912-47EE-BD7B-98C7B18202F5",
+            "id": "AAAACCC2-A774-422B-808F-2BC9C31FE8BC",
             "monthlyCategoryCap": null,
             "value": 0.0033
           },
           {
             "category": "gas",
-            "id": "0ABC1E70-3C1F-4642-8594-C44781A338B3",
+            "id": "9252227B-119F-42D5-BD29-57640363F724",
             "monthlyCategoryCap": null,
             "value": 0.0033
           },
           {
             "category": "telecomBills",
-            "id": "157CE65A-91ED-48E7-A380-F7BA5AE15E49",
+            "id": "FABA9D0E-AB57-4586-BAEF-B8A716DD95CB",
             "monthlyCategoryCap": null,
             "value": 0.0033
           },
           {
             "category": "government",
-            "id": "90AC9FE6-5C92-4AF7-AA14-174012DD5AEE",
+            "id": "7CFC5046-AFB4-4E6C-A361-5D5C7411041C",
             "monthlyCategoryCap": null,
             "value": 0.0033
           }
@@ -844,49 +850,49 @@
             "category": {
               "dining": "generic"
             },
-            "id": "034F6F9F-54AE-48D8-975A-C9790B14A3C7",
+            "id": "DFE77186-93DE-44AF-9996-2DF6A812A86E",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
           {
             "category": "international",
-            "id": "17A149A9-0006-410A-ADA4-1956EA8C2E55",
+            "id": "E31F0F3C-8132-47DF-9BC6-40B850C4A1C5",
             "monthlyCategoryCap": null,
             "value": 0.01
           },
           {
             "category": "rest",
-            "id": "4702E369-6906-465E-ADD8-831BF9ADC158",
+            "id": "0F18B55F-BD85-45ED-A57B-BB91B6E69D14",
             "monthlyCategoryCap": null,
             "value": 0.01
           },
           {
             "category": "utilities",
-            "id": "86CB9504-8DB2-4208-8176-633BD810F5D3",
+            "id": "EB79D483-C0B2-486A-9CB8-1B68B7F81C77",
             "monthlyCategoryCap": null,
             "value": 0.0033
           },
           {
             "category": "schoolFees",
-            "id": "B3F0514A-B708-4E1E-A6B4-A0E24327A8BA",
+            "id": "1CE32F27-8750-4EFF-91E9-7CF63F234314",
             "monthlyCategoryCap": null,
             "value": 0.0033
           },
           {
             "category": "gas",
-            "id": "9856762F-B451-4DCF-9248-9EA26556B979",
+            "id": "9E73E055-4C9E-43E8-BE1F-C31CD9613B3F",
             "monthlyCategoryCap": null,
             "value": 0.0033
           },
           {
             "category": "telecomBills",
-            "id": "EBCDE7DF-0D45-4AA0-AA68-C99FEB8CC9DE",
+            "id": "9A398FEB-D0B0-4304-982B-2DA8DD7FB8A8",
             "monthlyCategoryCap": null,
             "value": 0.0033
           },
           {
             "category": "government",
-            "id": "1363B29D-707B-43A9-AB31-E30131271C96",
+            "id": "FC001146-0FFC-4513-A280-EFB9EF755A0E",
             "monthlyCategoryCap": null,
             "value": 0.0033
           }
@@ -897,7 +903,7 @@
   },
   {
     "iconName": "RAKBANKIcon",
-    "id": "88B62732-C592-4458-AD5C-A7B6D021BCF6",
+    "id": "3D878DA0-A415-4F3A-858D-C251BF17F5F5",
     "name": "RAKBANK",
     "templates": [
       {
@@ -913,7 +919,7 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "4FC2FB77-54D7-4084-851C-324DF3C47F6E",
+            "id": "BC699664-73B1-4AEA-B8F5-A0110F893CD0",
             "monthlyCategoryCap": 100,
             "value": 0.05
           },
@@ -921,31 +927,31 @@
             "category": {
               "dining": "generic"
             },
-            "id": "B904018E-DCDF-4F89-9C7E-B9D884CFAD95",
+            "id": "535537FA-E6F1-4F01-8BDE-6C61FC69C55F",
             "monthlyCategoryCap": 100,
             "value": 0.05
           },
           {
             "category": "cinema",
-            "id": "70A32E60-D902-432A-ABB4-42FA388C490F",
+            "id": "550404AC-63DB-48C3-94C7-AA48063D686A",
             "monthlyCategoryCap": 100,
             "value": 0.5
           },
           {
             "category": "videoStreaming",
-            "id": "34D981D1-17AB-4B77-9641-AD7164F184A3",
+            "id": "DAB429CE-0DEC-45DD-B732-4A3DA6D6F19F",
             "monthlyCategoryCap": 100,
             "value": 0.5
           },
           {
             "category": "ewalletRetail",
-            "id": "E839DC99-83C2-46BD-8DE8-E8E6059D1F1C",
+            "id": "67347AF2-A18D-4B77-A51E-2D5723FB0FF9",
             "monthlyCategoryCap": 100,
             "value": 0.02
           },
           {
             "category": "nonEwalletRetail",
-            "id": "28518685-8451-4792-B143-0A0E02351CBB",
+            "id": "13D8D126-9154-42D0-B3FC-E688F2B4950E",
             "monthlyCategoryCap": 100,
             "value": 0.01
           }
@@ -963,7 +969,7 @@
         "rules": [
           {
             "category": "travel",
-            "id": "3A8330B5-9981-4F00-BD9D-CDE7C1C318D3",
+            "id": "C9B061B1-553B-4927-A6F4-1DADA2B5062A",
             "monthlyCategoryCap": 400,
             "value": 0.1
           },
@@ -971,7 +977,7 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "DD08B542-CCD0-48C5-8E30-9189B9230730",
+            "id": "D98F5BA1-B791-4BDA-9E33-41FB68B411A6",
             "monthlyCategoryCap": 300,
             "value": 0.1
           },
@@ -979,25 +985,25 @@
             "category": {
               "dining": "generic"
             },
-            "id": "D527DB07-C621-4230-92E7-A3B2226A4118",
+            "id": "7369A69F-0822-4CD8-A7EF-1E2E65438DA3",
             "monthlyCategoryCap": 300,
             "value": 0.1
           },
           {
             "category": "international",
-            "id": "96DEAAB0-8EE3-48FE-AB72-E74D5D486302",
+            "id": "A02CB2DB-4CC2-4DE8-8C2C-4EF148BCFB08",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
           {
             "category": "ewalletRetail",
-            "id": "6BD0E33D-776B-487F-AF03-4637A55199BC",
+            "id": "4695951C-D076-4832-912B-A19650FB48F9",
             "monthlyCategoryCap": 150,
             "value": 0.03
           },
           {
             "category": "rest",
-            "id": "33860CA7-86F0-43C2-BBE1-C60819812860",
+            "id": "87BA2C65-56FE-4015-9C86-AAF85C88AE74",
             "monthlyCategoryCap": 100,
             "value": 0.01
           }
@@ -1008,7 +1014,7 @@
   },
   {
     "iconName": "ADIBIcon",
-    "id": "DA2BB5F9-84BA-4B3A-BB53-097B50F2AD7D",
+    "id": "1D6BFF6F-2B22-4AB8-9389-CD61B984EF68",
     "name": "Abu Dhabi Islamic Bank",
     "templates": [
       {
@@ -1024,13 +1030,13 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "64B9BB04-CBEE-4172-A52F-44A8CB3AD69E",
+            "id": "ADBEED00-AF43-4240-B66C-B8F4F3B046BB",
             "monthlyCategoryCap": 300,
             "value": 0.04
           },
           {
             "category": "autoServicing",
-            "id": "CBE7AB89-E31E-4D6C-BF3D-A83F737F7019",
+            "id": "FED38E8E-D3E1-4EED-A51E-959D841AE1AA",
             "monthlyCategoryCap": null,
             "value": 0.04
           },
@@ -1038,37 +1044,37 @@
             "category": {
               "dining": "generic"
             },
-            "id": "9A3E74E0-AE9E-4578-AB35-469F8671DEC2",
+            "id": "1B399FB6-6327-46EE-BF55-749B5B76D2FA",
             "monthlyCategoryCap": 200,
             "value": 0.04
           },
           {
             "category": "telecomBills",
-            "id": "8E5DEA32-F833-4A30-8A04-8216FB4DC0EB",
+            "id": "4DB7BC91-0598-4BAB-AC0C-F573B58D5313",
             "monthlyCategoryCap": null,
             "value": 0.03
           },
           {
             "category": "gas",
-            "id": "D0BE5A96-BD1F-4A65-B979-D1F22E4126F3",
+            "id": "77062B31-31D3-4984-960A-8823C47A82FF",
             "monthlyCategoryCap": null,
             "value": 0.04
           },
           {
             "category": "utilities",
-            "id": "A37626C8-B7FE-4372-B89F-8391FFC99BB1",
+            "id": "5EF8EFE2-A56C-4268-8BAF-A5ADDD6B8F77",
             "monthlyCategoryCap": 100,
             "value": 0.04
           },
           {
             "category": "salikNol",
-            "id": "80215D93-A85E-4733-8749-9A397D2B7BBF",
+            "id": "14D3C13D-27F9-467C-A622-C3FEF031E326",
             "monthlyCategoryCap": null,
             "value": 0.03
           },
           {
             "category": "schoolFees",
-            "id": "D35888DC-0820-478F-936C-5E42606BB705",
+            "id": "F9B10F7D-BE13-41D3-9172-330A1E7172E4",
             "monthlyCategoryCap": 300,
             "value": 0.04
           }
@@ -1080,7 +1086,7 @@
               "gas",
               "autoServicing"
             ],
-            "id": "08764176-86B3-4046-9F97-7A53278FAFCF"
+            "id": "D8CE0CCA-DDE0-4585-AEBD-B26ABA6A5093"
           }
         ]
       }
@@ -1088,7 +1094,7 @@
   },
   {
     "iconName": "DubaiFirstIcon",
-    "id": "CD71797E-A78F-4319-B4A6-855934810640",
+    "id": "552B56BB-DFCA-47EB-9681-D7FECD25D3BF",
     "name": "Dubai First",
     "templates": [
       {
@@ -1102,7 +1108,7 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "CB10EEA8-D698-4CAB-B733-F6DE64A2EF9F",
+            "id": "AD275BD3-31B4-45D1-97C0-D7A8BFF727AA",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
@@ -1110,37 +1116,37 @@
             "category": {
               "dining": "generic"
             },
-            "id": "B53B91CE-F327-46B4-907A-82C4CE1CBE3B",
+            "id": "F2C2C0EF-2E92-4638-97D0-B30A50688E13",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
           {
             "category": "telecomBills",
-            "id": "2EEEA079-51B4-4D5C-A873-CC60CE18FD86",
+            "id": "93635331-CC9E-4F04-8218-68A8EC7D73DA",
             "monthlyCategoryCap": null,
             "value": 0.0015
           },
           {
             "category": "gas",
-            "id": "3B0C1EF1-CDE7-4AC8-860B-799FD389872B",
+            "id": "32A80FE9-5E5C-4628-B136-2E38D3A062CE",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
           {
             "category": "utilities",
-            "id": "8EB1DA19-CF3D-41FE-9C19-272E4293E461",
+            "id": "3F7AE9C7-34F6-4B39-A722-6A7CD1F30A93",
             "monthlyCategoryCap": null,
             "value": 0.0015
           },
           {
             "category": "salikNol",
-            "id": "81E65198-454F-45CE-9D4B-182B663CC549",
+            "id": "4D2F9AEF-A1AF-42CD-9D4F-30ED305FDF61",
             "monthlyCategoryCap": null,
             "value": 0.0015
           },
           {
             "category": "schoolFees",
-            "id": "9ADB23E5-131B-4A50-9A39-5A91FE0356BF",
+            "id": "3A88F984-DF09-45C1-BDC8-ABD859978678",
             "monthlyCategoryCap": null,
             "value": 0.0015
           }
@@ -1160,7 +1166,7 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "7D8FF41F-A268-4EDE-81AD-84960BD2AE6F",
+            "id": "5F4D0B2C-F494-4C8E-9762-03ECD2C6E6CF",
             "monthlyCategoryCap": 150,
             "value": 0.05
           },
@@ -1168,67 +1174,67 @@
             "category": {
               "dining": "generic"
             },
-            "id": "2C3B1343-746F-4267-80FA-EE92AB490BB9",
+            "id": "C3B7A0A1-D244-476B-BC13-EE4B10755D6A",
             "monthlyCategoryCap": 150,
             "value": 0.05
           },
           {
             "category": "telecomBills",
-            "id": "0DCAF557-C6EB-4B37-AE8E-85F581DB8383",
+            "id": "9FBBAE7D-5B6A-4D10-B7AE-A60698B0174B",
             "monthlyCategoryCap": null,
             "value": 0.0015
           },
           {
             "category": "gas",
-            "id": "3D42BCF0-DF3B-40CE-A575-4964009BA82C",
+            "id": "4E2DA094-8A70-42DF-869A-F4A2AB56D132",
             "monthlyCategoryCap": 10,
             "value": 0.05
           },
           {
             "category": "utilities",
-            "id": "AC7FC07E-292E-4595-BE97-5318600FB871",
+            "id": "91160DCB-D4D3-4326-B2A7-EB5ABE4C6954",
             "monthlyCategoryCap": null,
             "value": 0.0015
           },
           {
             "category": "salikNol",
-            "id": "8279B5EF-39CB-4952-8B52-4A514AC92636",
+            "id": "D4DD43F8-241F-4E22-8463-5C81B3BBB5BA",
             "monthlyCategoryCap": null,
             "value": 0.0015
           },
           {
             "category": "schoolFees",
-            "id": "DB76F064-E856-4EBA-9C0C-B94E14B24499",
+            "id": "FF040168-2231-4DCC-97B5-0C198B4809B8",
             "monthlyCategoryCap": null,
             "value": 0.0015
           },
           {
             "category": "government",
-            "id": "C208B543-5EDD-4D48-88E8-E4E026E24840",
+            "id": "137FBB13-595E-4057-BE7E-87174812C344",
             "monthlyCategoryCap": null,
             "value": 0.0015
           },
           {
             "category": "transportation",
-            "id": "618DEC93-463C-42F1-98A6-06FCA3AE4052",
+            "id": "F5F7CA44-C63A-41F1-9830-61AD52F3585F",
             "monthlyCategoryCap": null,
             "value": 0.0015
           },
           {
             "category": "realEstate",
-            "id": "FFB10BC2-0CD0-49E4-A566-D2196D74B40F",
+            "id": "51F7FE3D-3546-490F-9351-1B6CE64D72A7",
             "monthlyCategoryCap": null,
             "value": 0.0015
           },
           {
             "category": "insurance",
-            "id": "D2F31E1E-6852-4D62-9BBB-2E26A8EF20EC",
+            "id": "3AD637B8-0C61-419F-8995-DB70DF4521CE",
             "monthlyCategoryCap": null,
             "value": 0.0015
           },
           {
             "category": "rest",
-            "id": "14073B14-3CCC-4390-837A-6A8019905215",
+            "id": "E3C80529-B6FB-43CB-9AAA-FF11BAA26891",
             "monthlyCategoryCap": null,
             "value": 0.005
           }
@@ -1239,7 +1245,7 @@
   },
   {
     "iconName": "SIBIcon",
-    "id": "CCAAA4D3-5FC1-49DE-8C72-F92EF67C2D34",
+    "id": "DF3DDAE7-DB4C-4994-BA0B-9C7CBD726B83",
     "name": "Sharjah Islamic Bank",
     "templates": [
       {
@@ -1255,19 +1261,19 @@
             "category": {
               "online": "generic"
             },
-            "id": "D74E3D8B-A91E-460E-9513-8F641ABB482D",
+            "id": "65DC9C53-D7D2-4D9B-90F3-20C9A4A191E3",
             "monthlyCategoryCap": null,
             "value": 0.1
           },
           {
             "category": "ewalletRetail",
-            "id": "EEAD730C-BE6D-493C-B829-3DA2CEA7861D",
+            "id": "1095D0DC-F3CF-4EEA-99A7-D03F4038C3BB",
             "monthlyCategoryCap": null,
             "value": 0.1
           },
           {
             "category": "rest",
-            "id": "C1A66D1D-648F-42B0-8745-112BBC5CEC99",
+            "id": "7DE04B1C-E73C-4B6B-87BC-93DCE1288F57",
             "monthlyCategoryCap": null,
             "value": 0.01
           },
@@ -1275,37 +1281,37 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "34BA721C-BB80-46C0-B4AB-1879E6316B1A",
+            "id": "0B92B701-8FC8-409D-91A5-39DF6293E2AF",
             "monthlyCategoryCap": null,
             "value": 0.005
           },
           {
             "category": "utilities",
-            "id": "990DDBA6-EEDE-4C5A-B6E5-56F56FA13075",
+            "id": "4BB3AEC0-08F0-426B-A44B-A5A07D0D4032",
             "monthlyCategoryCap": null,
             "value": 0.005
           },
           {
             "category": "telecomBills",
-            "id": "B8B1DE15-92AC-42AC-AE59-5B10F9CC09E2",
+            "id": "20D5175C-7B2F-4185-9E84-ABEA732E10A4",
             "monthlyCategoryCap": null,
             "value": 0.005
           },
           {
             "category": "schoolFees",
-            "id": "88A79314-FD77-4ECC-A7AA-52D662A4D2AB",
+            "id": "4429B5A4-EE2D-4BA0-8163-A1FAC1752DAC",
             "monthlyCategoryCap": null,
             "value": 0.005
           },
           {
             "category": "government",
-            "id": "86A3E5F8-720C-4BD3-8E80-2A2E7E311F9D",
+            "id": "FF3F3BAE-A595-4173-9FCB-6AEC86B4A143",
             "monthlyCategoryCap": null,
             "value": 0.005
           },
           {
             "category": "international",
-            "id": "24A9FB14-B159-4E75-B8A3-F5A32F263512",
+            "id": "3AE60FD3-5316-4230-BDDF-AA93EBC9C92A",
             "monthlyCategoryCap": null,
             "value": 0.02
           }
@@ -1319,7 +1325,7 @@
               },
               "ewalletRetail"
             ],
-            "id": "A14D2A51-8A22-43BE-8CD5-2B773FDF9595"
+            "id": "283619F0-A9FB-4B25-8357-252B259E59E2"
           }
         ]
       }
@@ -1327,7 +1333,7 @@
   },
   {
     "iconName": "HSBCIcon",
-    "id": "4A44ADBB-B8C6-4EE2-95EA-C13FADAE3325",
+    "id": "AA725251-6AEB-4E3A-A215-1171F392701E",
     "name": "HSBC",
     "templates": [
       {
@@ -1339,7 +1345,7 @@
         "rules": [
           {
             "category": "gas",
-            "id": "1B47CABD-5985-44D5-A75C-5EF743477C3D",
+            "id": "82E1421C-8829-449E-A6A4-91BEA39EB0F1",
             "monthlyCategoryCap": 100,
             "value": 0.15
           },
@@ -1347,19 +1353,19 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "15CDEEA4-837C-442E-BFB8-10BF621A37C5",
+            "id": "4820A0D8-E0E1-49F8-89DA-2D069AEF63D1",
             "monthlyCategoryCap": 300,
             "value": 0.06
           },
           {
             "category": "schoolFees",
-            "id": "76B243A9-13C8-4D3B-87CF-3D4677C6A032",
+            "id": "5B08D67F-372A-455C-A617-4E1DC7729A93",
             "monthlyCategoryCap": 200,
             "value": 0.06
           },
           {
             "category": "rest",
-            "id": "847EAC9D-3D24-49C9-B500-9A217692DD99",
+            "id": "AEC21A68-8ACC-4416-B34D-8FF0949C2A97",
             "monthlyCategoryCap": null,
             "value": 0.015
           }
@@ -1370,7 +1376,7 @@
   },
   {
     "iconName": "WioIcon",
-    "id": "029F3075-4ADA-4B1C-B5D0-4A426B3F9D1C",
+    "id": "6CC2A348-820B-4F4B-85DE-B2C7571B9D7E",
     "name": "Wio",
     "templates": [
       {
@@ -1384,13 +1390,13 @@
         "rules": [
           {
             "category": "international",
-            "id": "ADCF6F50-7910-4481-BAF3-1303405FDD77",
+            "id": "8C01455C-2C62-421D-A1B3-907A8588AC62",
             "monthlyCategoryCap": null,
             "value": 0.01
           },
           {
             "category": "rest",
-            "id": "FAAEDBAB-DCBD-4496-9C2C-9DCC708EC8E2",
+            "id": "42D57758-C64F-4036-B906-866F8CFA4AD5",
             "monthlyCategoryCap": null,
             "value": 0.02
           }
@@ -1401,7 +1407,7 @@
   },
   {
     "iconName": "CitibankIcon",
-    "id": "C567D1FC-F623-48E4-8756-FDB80F771D60",
+    "id": "79CCF2B6-0D08-4808-9BA0-7DA3374C4318",
     "name": "Citibank",
     "templates": [
       {
@@ -1417,19 +1423,19 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "E1C4633B-F6C7-401C-B17B-984F46971F15",
+            "id": "C5DD18E1-A068-4DEF-A16A-BED1D991731F",
             "monthlyCategoryCap": null,
             "value": 0.02
           },
           {
             "category": "international",
-            "id": "FA17EAE7-C48E-49AA-8478-112553ED0732",
+            "id": "6D700DBB-7ECF-45A5-8F0A-4A2A17F4AD87",
             "monthlyCategoryCap": null,
             "value": 0.03
           },
           {
             "category": "rest",
-            "id": "67D83075-5E3A-4485-A37C-7541D82DC646",
+            "id": "7F683464-C21D-460F-AECC-A995D6B2A20F",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -1440,7 +1446,7 @@
   },
   {
     "iconName": "CBDIcon",
-    "id": "058AEDB8-2EB8-4E1B-BDFB-29A6BF976188",
+    "id": "A355DA4F-33FA-4126-8337-576B3B9BEE3F",
     "name": "Commercial Bank of Dubai",
     "templates": [
       {
@@ -1452,13 +1458,13 @@
         "rules": [
           {
             "category": "utilities",
-            "id": "3B6BFD89-4BF0-421A-B910-D776BB07DA1A",
+            "id": "F5F33FE1-EC98-4C6D-9239-4BF89739D7B3",
             "monthlyCategoryCap": null,
             "value": 0.1
           },
           {
             "category": "schoolFees",
-            "id": "D0948C40-E97D-4467-9EB0-C4B108EBFB02",
+            "id": "D557967C-66FD-45EB-9B28-0A21C9842493",
             "monthlyCategoryCap": null,
             "value": 0.1
           },
@@ -1466,13 +1472,13 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "E8B79578-3D90-4F94-9FD3-C3425D90AEFC",
+            "id": "69CAA3A6-ABBD-4975-8EAE-14FFBB925339",
             "monthlyCategoryCap": null,
             "value": 0.1
           },
           {
             "category": "rest",
-            "id": "FE36D55B-A28F-4D23-BDA5-79836BF9618A",
+            "id": "B04124F3-DF48-4619-B08D-2F8457E0D0FA",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -1483,7 +1489,7 @@
   },
   {
     "iconName": "NajmIcon",
-    "id": "E53835FA-C25C-4335-94B5-216C80B6E2A7",
+    "id": "9BE108A2-114F-412F-9C07-6A5FFB4DE93B",
     "name": "Majid Al Futtaim / Najm",
     "templates": [
       {
@@ -1497,19 +1503,19 @@
             "category": {
               "supermarket": "carrefour"
             },
-            "id": "F1418ADE-4913-4C7C-AF88-85EECB9DA5D0",
+            "id": "5783D57F-7F0E-44E7-8AE7-9FA0BD90DC60",
             "monthlyCategoryCap": null,
             "value": 0.04
           },
           {
             "category": "cinema",
-            "id": "0B24D223-5C4A-4A91-BD4E-7DE3AB11819D",
+            "id": "D384837A-976C-4FD2-8EB3-E195E0C35FD5",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
           {
             "category": "rest",
-            "id": "261B0A8B-77B4-405C-8EDD-6222F6FCF33B",
+            "id": "DA4282CC-878A-47F6-B89F-10225DD3B877",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -1520,7 +1526,7 @@
   },
   {
     "iconName": "EmiratesIslamicIcon",
-    "id": "FD18E062-06B8-44FF-B4E6-63AB13463C1D",
+    "id": "72F47D0A-C8CD-4F1F-B2DE-755AD4E4530F",
     "name": "Emirates Islamic",
     "templates": [
       {
@@ -1533,19 +1539,19 @@
         "rules": [
           {
             "category": "salikNol",
-            "id": "CAF9BF90-19A7-4D01-AA4B-96ED7DF08FD3",
+            "id": "35B4044A-14D0-4C43-A98E-3A83A431F9E9",
             "monthlyCategoryCap": null,
             "value": 0.1
           },
           {
             "category": "transportation",
-            "id": "67678A89-DB9E-4985-BD86-7811B7DDC3DD",
+            "id": "3CCB5FD8-430F-4100-8649-5FA121B22D9D",
             "monthlyCategoryCap": null,
             "value": 0.05
           },
           {
             "category": "rest",
-            "id": "C20202E7-1555-4807-B5D9-8B43AEAB878A",
+            "id": "56A77FD2-6717-4679-B7A8-92667D9BB177",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -1556,7 +1562,7 @@
   },
   {
     "iconName": "LIVIcon",
-    "id": "2416681D-799E-4655-B127-99ED537CEB7B",
+    "id": "255B8325-8B16-49D7-AAE0-317BADF8EA09",
     "name": "LIV (Emirates NBD Digital)",
     "templates": [
       {
@@ -1570,7 +1576,7 @@
         "rules": [
           {
             "category": "rest",
-            "id": "03903CCA-3A5C-4909-A1A5-5515D916E25C",
+            "id": "061D4EA7-36B0-4DD0-AF05-60651C198AFD",
             "monthlyCategoryCap": null,
             "value": 0.02
           }
@@ -1588,7 +1594,7 @@
         "rules": [
           {
             "category": "rest",
-            "id": "742D23D0-77CD-4FA3-A3B3-FAAAE2B51964",
+            "id": "A21D3594-7D7C-4AF5-9C83-6B0761AAC679",
             "monthlyCategoryCap": null,
             "value": 0.04
           }
@@ -1599,7 +1605,7 @@
   },
   {
     "iconName": "StanChartIcon",
-    "id": "D15AD903-BB86-44C5-BF46-5FC687B38793",
+    "id": "3FA2CE4A-4753-4C8A-91D6-71CE17B68802",
     "name": "Standard Chartered",
     "templates": [
       {
@@ -1613,7 +1619,7 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "0CED5EE3-0388-47FD-B45B-52D221B48C97",
+            "id": "04809E2B-E088-458A-9941-99CA1DA08421",
             "monthlyCategoryCap": null,
             "value": 0.02
           },
@@ -1621,19 +1627,19 @@
             "category": {
               "dining": "generic"
             },
-            "id": "59F8D81C-6DF8-44AD-AC00-2B9274753476",
+            "id": "243A6D9E-0BB9-4F26-8661-EA524F3BA556",
             "monthlyCategoryCap": null,
             "value": 0.02
           },
           {
             "category": "gas",
-            "id": "2FA2DBB9-8235-42B7-8C98-4E51F5E5AF1A",
+            "id": "7575D121-7EB5-403E-9AE6-9456266CF48E",
             "monthlyCategoryCap": null,
             "value": 0.02
           },
           {
             "category": "rest",
-            "id": "A6B1B199-011B-4AAF-96F5-8E1DABB8CABD",
+            "id": "5B87B2B3-8BEA-4275-AA12-E47E7269258E",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -1644,7 +1650,7 @@
   },
   {
     "iconName": "SNBIcon",
-    "id": "52608F68-887B-4829-BC74-358157D080BC",
+    "id": "C2EB13C7-B138-4D0B-A2C1-6C9E9CDCA49B",
     "name": "SNB / Samba",
     "templates": [
       {
@@ -1658,7 +1664,7 @@
             "category": {
               "supermarket": "generic"
             },
-            "id": "933D8653-7A4F-4281-8CC8-770C3C25F198",
+            "id": "41B3A61C-B002-4B38-BDB4-471B7C207AD9",
             "monthlyCategoryCap": null,
             "value": 0.02
           },
@@ -1666,13 +1672,13 @@
             "category": {
               "dining": "generic"
             },
-            "id": "4FE685AD-B5E1-421F-9E64-2202C84FFB87",
+            "id": "57E741E8-0229-4529-9186-E7F14BEFCEB7",
             "monthlyCategoryCap": null,
             "value": 0.02
           },
           {
             "category": "rest",
-            "id": "40ECFF9B-E4F4-4CBA-86F7-B3533BFA83FE",
+            "id": "5AA1010A-E2EB-4926-891A-D15C24D73911",
             "monthlyCategoryCap": null,
             "value": 0.01
           }
@@ -1683,7 +1689,7 @@
   },
   {
     "iconName": "InvestBankIcon",
-    "id": "B3DACC05-7705-44E1-B19D-0B65327B16C1",
+    "id": "0643AA85-B0DC-4E8E-B2CE-028F4518BAF7",
     "name": "Invest Bank",
     "templates": [
       {
@@ -1697,7 +1703,7 @@
         "rules": [
           {
             "category": "rest",
-            "id": "F3C4374C-36A3-49AC-B631-4804CF8ADFC2",
+            "id": "AFFE1ACC-6609-4757-8A8C-692672A8719F",
             "monthlyCategoryCap": null,
             "value": 0.03
           }
