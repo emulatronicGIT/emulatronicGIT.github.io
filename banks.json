@@ -843,8 +843,8 @@
         "id" : "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0301",
         "issuer" : "Dubai Islamic Bank",
         "minimumSalaryRequirement" : 5000,
-        "minimumSpendForCashback" : 8000,
-        "monthlyCashbackCap" : 300,
+        "minimumSpendForCashback" : 0,
+        "monthlyCashbackCap" : 0,
         "name" : "SHAMS Infinite Covered Card",
         "rules" : [
           {
