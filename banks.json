@@ -1624,7 +1624,7 @@
     {
       "id": "4F0F5287-D0E0-4EB3-9A48-D29397517BBF",
       "category": "rest",
-      "value": 0.0,
+      "value": 0.0001,
       "monthlyCategoryCap": null,
       "cashbackTiers": [
         { "min": 0,     "max": 6999.99, "value": 0.01 },
