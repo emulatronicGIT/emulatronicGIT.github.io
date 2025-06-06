@@ -1606,21 +1606,26 @@
             "value": 0.001
           },
           {
-            "category": "rest",
             "id": "2BF85155-FC7C-467F-BA65-7AA53906395C",
+            "category": "rest",
+            "value": 0.0075,
             "monthlyCategoryCap": null,
-            "value": 0.02
-          }
-        ],
+            "cashbackTiers": [
+                { "min": 0,     "max": 4999.99, "value": 0.0075 },
+                { "min": 5000,  "max": 9999.99, "value": 0.015 },
+                { "min": 10000, "max": null,     "value": 0.02 }
+            ]
+        }
+      ],
         "sharedCaps": []
       },
       {
-  "id": "6E9B82A8-29D1-4097-BF0F-22D8D6B5F6C4",
-  "name": "LIV Casdhback+ Card",
-  "issuer": "LIV / Emirates NBD",
-  "monthlyCashbackCap": 1500,
-  "minimumSpendForCashback": 0,
-  "rules": [
+    "id": "6E9B82A8-29D1-4097-BF0F-22D8D6B5F6C4",
+    "name": "LIV Casdhback+ Card",
+    "issuer": "LIV / Emirates NBD",
+    "monthlyCashbackCap": 1500,
+    "minimumSpendForCashback": 0,
+    "rules": [
     {
       "id": "4F0F5287-D0E0-4EB3-9A48-D29397517BBF",
       "category": "rest",
