@@ -321,7 +321,7 @@
             "category": "international",
             "id": "57E70F12-A82E-4F35-9E3F-2A4C44DF045C",
             "monthlyCategoryCap": null,
-            "value": 0
+            "value": 0.000001
           },
           {
             "category": "rest",
