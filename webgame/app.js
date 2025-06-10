@@ -160,8 +160,10 @@ const preguntasPorNivel = {
 let preguntas = [];
 
 let indice = 0;
+let aciertos = 0;
 let puntaje = 0;
 let tiempoInicio = 0;
+let puntosPorPregunta = 100;
 const startBtn = document.getElementById('start-btn');
 const nextBtn = document.getElementById('next-btn');
 const questionEl = document.getElementById('question');
@@ -184,7 +186,10 @@ startBtn.addEventListener('click', () => {
   jugador = nombre;
   preguntas = preguntasPorNivel[levelSelect.value];
   indice = 0;
+  aciertos = 0;
   puntaje = 0;
+  const tablaPuntos = { basico: 100, intermedio: 150, avanzado: 200 };
+  puntosPorPregunta = tablaPuntos[levelSelect.value] || 100;
   introEl.classList.add('hidden');
   gameEl.classList.remove('hidden');
   tiempoInicio = Date.now();
@@ -216,7 +221,8 @@ function mostrarPregunta() {
 function seleccionar(indiceSeleccionado) {
   const actual = preguntas[indice];
   if (indiceSeleccionado === actual.correcta) {
-    puntaje++;
+    aciertos++;
+    puntaje += puntosPorPregunta;
   }
   nextBtn.classList.remove('hidden');
   Array.from(choicesEl.children).forEach((btn, i) => {
@@ -233,31 +239,40 @@ function finalizarJuego() {
   gameEl.classList.add('hidden');
   resultEl.classList.remove('hidden');
   const tiempoTotalSeg = Math.round((Date.now() - tiempoInicio) / 1000);
-  const puntajeFinal = puntaje * 100 - tiempoTotalSeg;
+  const puntajeFinal = puntaje - tiempoTotalSeg;
   resultEl.textContent =
-    `Obtuviste ${puntaje} de ${preguntas.length} preguntas correctas en ${tiempoTotalSeg} segundos.\n` +
+    `Obtuviste ${aciertos} de ${preguntas.length} preguntas correctas en ${tiempoTotalSeg} segundos.\n` +
     `Puntaje final: ${puntajeFinal}`;
   guardarEnLeaderboard(jugador, puntajeFinal);
   mostrarLeaderboard();
 }
 
-function guardarEnLeaderboard(nombre, puntos) {
-  const datos = JSON.parse(localStorage.getItem('leaderboard') || '[]');
-  datos.push({ nombre, puntos });
-  datos.sort((a, b) => b.puntos - a.puntos);
-  datos.splice(10);
-  localStorage.setItem('leaderboard', JSON.stringify(datos));
+async function guardarEnLeaderboard(nombre, puntos) {
+  try {
+    await fetch('/leaderboard', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ nombre, puntos })
+    });
+  } catch (e) {
+    console.error('Error al guardar en el leaderboard', e);
+  }
 }
 
-function mostrarLeaderboard() {
-  const datos = JSON.parse(localStorage.getItem('leaderboard') || '[]');
-  leaderboardList.innerHTML = '';
-  datos.forEach((d) => {
-    const li = document.createElement('li');
-    li.textContent = `${d.nombre}: ${d.puntos}`;
-    leaderboardList.appendChild(li);
-  });
-  leaderboardEl.classList.remove('hidden');
+async function mostrarLeaderboard() {
+  try {
+    const resp = await fetch('/leaderboard');
+    const datos = await resp.json();
+    leaderboardList.innerHTML = '';
+    datos.forEach((d) => {
+      const li = document.createElement('li');
+      li.textContent = `${d.nombre}: ${d.puntos}`;
+      leaderboardList.appendChild(li);
+    });
+    leaderboardEl.classList.remove('hidden');
+  } catch (e) {
+    console.error('Error al obtener el leaderboard', e);
+  }
 }
 
 // mostrar tabla al cargar la página

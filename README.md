@@ -4,14 +4,15 @@ Este repositorio contiene un juego web sencillo en español para estudiantes de 
 
 ## Instrucciones
 
-1. Abre el archivo `webgame/index.html` en tu navegador web.
-2. Selecciona un nivel de dificultad y haz clic en **Comenzar**.
-3. Ingresa tu nombre, responde cada pregunta y, al finalizar, verás tu puntaje.
-4. Tu resultado se agregará a una tabla de posiciones local.
+1. Instala las dependencias con `npm install`.
+2. Ejecuta `node server.js` y abre `http://localhost:3000` en tu navegador.
+3. Selecciona un nivel de dificultad y haz clic en **Comenzar**.
+4. Ingresa tu nombre, responde cada pregunta y, al finalizar, verás tu puntaje.
+5. Tu resultado se agregará a una tabla de posiciones compartida entre todos los usuarios.
 
 Puedes escoger entre tres niveles de complejidad: **Básico**, **Intermedio** y **Avanzado**.
 
 
 El juego está implementado con HTML, CSS y JavaScript puros, por lo que no requiere configuraciones adicionales.
 
-Cada respuesta correcta suma 100 puntos y al resultado se le resta el total de segundos empleados en completar todas las preguntas.
+Cada respuesta correcta otorga puntaje según el nivel elegido: 100 puntos en **Básico**, 150 en **Intermedio** y 200 en **Avanzado**. Al resultado se le resta el total de segundos empleados en completar todas las preguntas.
