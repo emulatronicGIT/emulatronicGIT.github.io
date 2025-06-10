@@ -7,8 +7,12 @@ body {
 .hidden {
   display: none;
 }
+#choices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 #choices button {
-  display: block;
   margin: 5px 0;
 }
 
