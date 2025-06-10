@@ -6,7 +6,8 @@ Este repositorio contiene un juego web sencillo en español para estudiantes de 
 
 1. Abre el archivo `webgame/index.html` en tu navegador web.
 2. Selecciona un nivel de dificultad y haz clic en **Comenzar**.
-3. Responde cada pregunta y, al final, verás tu puntaje obtenido.
+3. Ingresa tu nombre, responde cada pregunta y, al finalizar, verás tu puntaje.
+4. Tu resultado se agregará a una tabla de posiciones local.
 
 Puedes escoger entre tres niveles de complejidad: **Básico**, **Intermedio** y **Avanzado**.
 

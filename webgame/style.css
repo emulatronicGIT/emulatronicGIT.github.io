@@ -14,3 +14,7 @@ body {
 #intro label, #intro select {
   margin-right: 5px;
 }
+
+#leaderboard {
+  margin-top: 20px;
+}
