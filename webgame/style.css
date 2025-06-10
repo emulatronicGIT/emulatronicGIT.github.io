@@ -10,3 +10,7 @@ body {
   display: block;
   margin: 5px 0;
 }
+
+#intro label, #intro select {
+  margin-right: 5px;
+}
