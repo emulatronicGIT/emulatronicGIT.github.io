@@ -403,7 +403,7 @@
         "sharedCaps": []
       },
       {
-        "backgroundImageName": "enbd-lulu-247-titanium-credit",
+        "backgroundImageName": "lulu-247-titanium-credit",
         "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0104",
         "issuer": "Abu Dhabi Commercial Bank",
         "minimumSalaryRequirement": 5000,
@@ -570,6 +570,23 @@
           }
         ],
         "sharedCaps": []
+      },
+      {
+        "backgroundImageName": "essential",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0107",
+        "issuer": "Abu Dhabi Commercial Bank",
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Essential Cashback",
+        "rules": [
+          {
+            "category": "rest",
+            "id": "C7DEA24A-A074-4BC1-AFC2-00B5E4B6E594",
+            "monthlyCategoryCap": null,
+            "value": 0.01
+          }
+        ],
+        "sharedCaps": []
       }
     ]
   },
@@ -676,6 +693,44 @@
             "id": "D747B1E2-835E-40E0-82A2-7C0F6C05537E",
             "monthlyCategoryCap": null,
             "value": 0.01
+          }
+        ],
+        "sharedCaps": []
+      },
+      {
+        "backgroundImageName": "enbd-lulu-247-titanium-credit",
+        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0205",
+        "issuer": "Emirates NBD",
+        "minimumSalaryRequirement": 5000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Emirates NBD Noon",
+        "rules": [
+          {
+            "category": {
+              "supermarket": "lulu"
+            },
+            "id": "0DC3FFAD-29D3-4CCE-A324-38814989F7AF",
+            "monthlyCategoryCap": null,
+            "value": 0.035
+          },
+          {
+            "category": "gas",
+            "id": "D747B1E2-835E-40E0-82A2-7C0F6C05547E",
+            "monthlyCategoryCap": null,
+            "value": 0.02
+          },
+          {
+            "category": "utilities",
+            "id": "D747B1E2-835E-40E0-82A2-7C0F6C05557E",
+            "monthlyCategoryCap": null,
+            "value": 0.01
+          },
+          {
+            "category": "rest",
+            "id": "D747B1E2-835E-40E0-82A2-7C0F6C05537E",
+            "monthlyCategoryCap": null,
+            "value": 0.0035
           }
         ],
         "sharedCaps": []
