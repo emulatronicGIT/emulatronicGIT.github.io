@@ -1841,45 +1841,6 @@
     ]
   },
   {
-    "iconName": "SNBIcon",
-    "id": "B1855404-1231-4BE8-B0AF-F54BD8454722",
-    "name": "SNB / Samba",
-    "templates": [
-      {
-        "id": "1D6A5B64-0E4B-426A-BBB5-94DB28236A49",
-        "issuer": "SNB (Samba) UAE",
-        "minimumSpendForCashback": 7000,
-        "monthlyCashbackCap": 300,
-        "name": "SNB (Samba) Classic",
-        "rules": [
-          {
-            "category": {
-              "supermarket": "generic"
-            },
-            "id": "298CC216-67D0-404C-995A-278CDB083CB8",
-            "monthlyCategoryCap": null,
-            "value": 0.02
-          },
-          {
-            "category": {
-              "dining": "generic"
-            },
-            "id": "11DF7401-C6CF-4B35-8B22-695063908BEE",
-            "monthlyCategoryCap": null,
-            "value": 0.02
-          },
-          {
-            "category": "rest",
-            "id": "52BB0F9A-C4DD-4497-83A6-381FF2104357",
-            "monthlyCategoryCap": null,
-            "value": 0.01
-          }
-        ],
-        "sharedCaps": []
-      }
-    ]
-  },
-  {
     "iconName": "InvestBankIcon",
     "id": "995A5BA2-211D-4B37-808D-F6AE6A6DE4D1",
     "name": "Invest Bank",
