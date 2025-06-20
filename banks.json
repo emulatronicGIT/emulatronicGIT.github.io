@@ -1592,43 +1592,6 @@
     ]
   },
   {
-    "iconName": "NajmIcon",
-    "id": "3A1240C0-54DB-4EFE-A676-BA595D878A73",
-    "name": "Majid Al Futtaim / Najm",
-    "templates": [
-      {
-        "id": "B504CFE6-826C-41A6-B8D8-82DA0F33A225",
-        "issuer": "Majid Al Futtaim / Najm",
-        "minimumSpendForCashback": 8000,
-        "monthlyCashbackCap": 1500,
-        "name": "Najm Platinum Cashback",
-        "rules": [
-          {
-            "category": {
-              "supermarket": "carrefour"
-            },
-            "id": "E2978621-906B-4383-ACCC-B4AC8212A7EB",
-            "monthlyCategoryCap": null,
-            "value": 0.04
-          },
-          {
-            "category": "cinema",
-            "id": "6AF8BCC1-24D6-45DE-BCAB-5A1CE5DF809C",
-            "monthlyCategoryCap": null,
-            "value": 0.05
-          },
-          {
-            "category": "rest",
-            "id": "D4F06227-36A9-4098-ABC4-EBA7EE740B7B",
-            "monthlyCategoryCap": null,
-            "value": 0.01
-          }
-        ],
-        "sharedCaps": []
-      }
-    ]
-  },
-  {
     "iconName": "EmiratesIslamicIcon",
     "id": "79A5AB02-B8D4-4A60-8DC9-B72EFFFB76B8",
     "name": "Emirates Islamic",
@@ -1835,34 +1798,37 @@
     "name": "Standard Chartered",
     "templates": [
       {
+        "backgroundImageName": "SimlyCash",
         "id": "A6EF4926-2162-4351-883D-11C5B31A56E0",
         "issuer": "Standard Chartered",
-        "minimumSpendForCashback": 8000,
-        "monthlyCashbackCap": 400,
-        "name": "Manhattan/SimplyCash",
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "SimplyCash",
         "rules": [
-          {
-            "category": {
-              "supermarket": "generic"
+            {
+              "category": "international",
+              "id": "3D415B45-85EE-461D-98BE-B89B6B3EA301",
+              "monthlyCategoryCap": null,
+              "value": 0.02
             },
-            "id": "D9896624-D4E3-4D01-9C74-FC1E44B35056",
-            "monthlyCategoryCap": null,
-            "value": 0.02
-          },
-          {
-            "category": {
-              "dining": "generic"
+            {
+              "category": "travel",
+              "id": "3D415B45-85EE-461D-98BE-B89B6B3EA303",
+              "monthlyCategoryCap": null,
+              "value": 0.02
             },
-            "id": "6CA3471F-C7DC-4D3C-AF6B-B301427EAF25",
-            "monthlyCategoryCap": null,
-            "value": 0.02
-          },
-          {
-            "category": "gas",
-            "id": "68CEE04B-19D4-4151-AA7C-53FBBAFA0AC1",
-            "monthlyCategoryCap": null,
-            "value": 0.02
-          },
+            {
+              "category": "government",
+              "id": "3D415B45-85EE-461D-98BE-B89B6B3EA304",
+              "monthlyCategoryCap": null,
+              "value": 0.002
+            },
+            {
+              "category": "government",
+              "id": "3D415B45-85EE-461D-98BE-B89B6B3EA304",
+              "monthlyCategoryCap": null,
+              "value": 0.002
+            },
           {
             "category": "rest",
             "id": "3D415B45-85EE-461D-98BE-B89B6B3EA302",
