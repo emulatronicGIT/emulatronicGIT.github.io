@@ -76,6 +76,24 @@
             "value": 0.03
           },
           {
+            "category": "government",
+            "id": "D12CD673-A90F-45E2-BB32-019C93781CD8",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
+          },
+          {
+            "category": "schoolFees",
+            "id": "D12CD673-A90F-45E2-BB32-019C93781CD9",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
+          },
+          {
+            "category": "realEstate",
+            "id": "D12CD673-A90F-45E2-BB32-019C93781DD9",
+            "monthlyCategoryCap": null,
+            "value": 0.0015
+          },
+          {
             "category": "rest",
             "id": "AA50770C-CD89-4492-A6CE-1930EA800680",
             "monthlyCategoryCap": null,
