@@ -103,28 +103,6 @@
         "sharedCaps": []
       },
       {
-        "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0003",
-        "issuer": "First Abu Dhabi Bank",
-        "minimumSpendForCashback": 100,
-        "monthlyCashbackCap": 0,
-        "name": "Etihad Guest Infinite",
-        "rules": [
-          {
-            "category": "travel",
-            "id": "E81D6550-B297-4F85-BD47-CAAA410C0B14",
-            "monthlyCategoryCap": null,
-            "value": 0.03
-          },
-          {
-            "category": "rest",
-            "id": "1B253BBA-B7CB-438A-98B6-2A419EE03F56",
-            "monthlyCategoryCap": null,
-            "value": 0.01
-          }
-        ],
-        "sharedCaps": []
-      },
-      {
         "id": "D32E153D-5C32-4C6B-B9C9-1A1F5CCB0004",
         "issuer": "First Abu Dhabi Bank",
         "minimumSalaryRequirement": 0,
