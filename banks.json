@@ -170,6 +170,7 @@
             "category": "travel",
             "id": "6BF345E8-E719-4942-B8FB-8B7C79EF28C2",
             "monthlyCategoryCap": null,
+            "previousMonthMinimumSpend": 5000,
             "value": 0.12
           },
           {
@@ -178,6 +179,7 @@
             },
             "id": "429870FE-26DA-4E98-B606-284DC3D95D0F",
             "monthlyCategoryCap": null,
+            "previousMonthMinimumSpend": 5000,
             "value": 0.12
           },
           {
