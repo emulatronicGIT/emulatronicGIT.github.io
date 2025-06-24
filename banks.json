@@ -1862,5 +1862,204 @@
         "sharedCaps": []
       }
     ]
+  },
+  {
+    "iconName": "AjmanBankIcon",
+    "id": "C73BC369-9D45-4883-8B37-D065AFFE03C5",
+    "name": "Ajman Bank",
+    "templates": [
+      {
+        "backgroundImageName": "ULTRACASH FCARD",
+        "id": "B5AC1263-AC8D-4946-9DCC-5477A17B80FB",
+        "issuer": "Ajman Bank",
+        "minimumSalaryRequirement": 10000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Ultra CashBack - Fuel & Online",
+        "rules": [
+          {
+            "category": "gas",
+            "id": "D1EA28AD-AEED-484A-AF01-EC4E9DD81D41",
+            "monthlyCategoryCap": 400,
+            "value": 0.05
+          },
+          {
+            "category": {
+              "online": "generic"
+            },
+            "id": "5F65DB7A-22EF-4DA3-98E5-26CB2037C893",
+            "monthlyCategoryCap": 200,
+            "value": 0.05
+          },
+          {
+            "category": "rest",
+            "id": "72CC2384-AD78-4D15-A94B-974EE6334092",
+            "monthlyCategoryCap": null,
+            "value": 0.01
+          }
+        ],
+        "sharedCaps": []
+      },
+      {
+        "backgroundImageName": "ULTRACASH FCARD",
+        "id": "B5AC1263-AC8D-4946-9DCC-5477A17B80FA",
+        "issuer": "Ajman Bank",
+        "minimumSalaryRequirement": 10000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Ultra CashBack - Fuel & Supermarkets",
+        "rules": [
+          {
+            "category": "gas",
+            "id": "B52AB53B-700F-4234-B3C0-61DD43C68531",
+            "monthlyCategoryCap": 400,
+            "value": 0.05
+          },
+          {
+            "category": {
+              "supermarket": "generic"
+            },
+            "id": "AC953F1F-AED1-40DA-BACB-6089DA0FE771",
+            "monthlyCategoryCap": 200,
+            "value": 0.05
+          },
+          {
+            "category": "rest",
+            "id": "BBF1E156-8F25-49E7-9BA7-8B9CD886C78C",
+            "monthlyCategoryCap": null,
+            "value": 0.01
+          }
+        ],
+        "sharedCaps": []
+      },
+      {
+        "backgroundImageName": "ULTRACASH FCARD",
+        "id": "B5AC1263-AC8D-4946-9DCC-5477A17B80FC",
+        "issuer": "Ajman Bank",
+        "minimumSalaryRequirement": 10000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Ultra CashBack - Fuel & School Fees",
+        "rules": [
+          {
+            "category": "gas",
+            "id": "F49A8034-5AC0-4D61-982B-18FC60CE11D0",
+            "monthlyCategoryCap": 400,
+            "value": 0.05
+          },
+          {
+            "category": "schoolFees",
+            "id": "D48A1057-AC57-40CB-94DC-9F28C8A9BC01",
+            "monthlyCategoryCap": 200,
+            "value": 0.05
+          },
+          {
+            "category": "rest",
+            "id": "E4F89DCD-E6EF-45AF-9A3E-EB0FC58F0390",
+            "monthlyCategoryCap": null,
+            "value": 0.01
+          }
+        ],
+        "sharedCaps": []
+      },
+      {
+        "backgroundImageName": "ULTRACASH FCARD",
+        "id": "B5AC1263-AC8D-4946-9DCC-5477A17B80FD",
+        "issuer": "Ajman Bank",
+        "minimumSalaryRequirement": 10000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Ultra CashBack - Supermarkets & Online",
+        "rules": [
+          {
+            "category": {
+              "supermarket": "generic"
+            },
+            "id": "DC5E6133-1C78-4053-A54A-E1129680A170",
+            "monthlyCategoryCap": 200,
+            "value": 0.05
+          },
+          {
+            "category": {
+              "online": "generic"
+            },
+            "id": "F3A72EF0-F732-432D-9D96-B22795F5D871",
+            "monthlyCategoryCap": 200,
+            "value": 0.05
+          },
+          {
+            "category": "rest",
+            "id": "1E0FD50E-C623-446D-801D-50C4785C3F35",
+            "monthlyCategoryCap": null,
+            "value": 0.01
+          }
+        ],
+        "sharedCaps": []
+      },
+      {
+        "backgroundImageName": "ULTRACASH FCARD",
+        "id": "B5AC1263-AC8D-4946-9DCC-5477A17B80FE",
+        "issuer": "Ajman Bank",
+        "minimumSalaryRequirement": 10000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Ultra CashBack - Supermarkets & School Fees",
+        "rules": [
+          {
+            "category": {
+              "supermarket": "generic"
+            },
+            "id": "F7335AA2-611B-45C2-8E1A-6C4CF1B02C11",
+            "monthlyCategoryCap": 200,
+            "value": 0.05
+          },
+          {
+            "category": "schoolFees",
+            "id": "0B247552-A67E-4A9F-AF89-2AE10E6F19C5",
+            "monthlyCategoryCap": 200,
+            "value": 0.05
+          },
+          {
+            "category": "rest",
+            "id": "5D4EB007-7BE1-41E3-90B3-F76C4695B994",
+            "monthlyCategoryCap": null,
+            "value": 0.01
+          }
+        ],
+        "sharedCaps": []
+      },
+      {
+        "backgroundImageName": "ULTRACASH FCARD",
+        "id": "B5AC1263-AC8D-4946-9DCC-5477A17B80FF",
+        "issuer": "Ajman Bank",
+        "minimumSalaryRequirement": 10000,
+        "minimumSpendForCashback": 0,
+        "monthlyCashbackCap": 0,
+        "name": "Ultra CashBack - Online & School Fees",
+        "rules": [
+          {
+            "category": {
+              "online": "generic"
+            },
+            "id": "B26C40E6-A391-4782-A9EC-7DBB022C83B1",
+            "monthlyCategoryCap": 200,
+            "value": 0.05
+          },
+          {
+            "category": "schoolFees",
+            "id": "37F1126D-94B7-4835-A637-B6E41490F9AC",
+            "monthlyCategoryCap": 200,
+            "value": 0.05
+          },
+          {
+            "category": "rest",
+            "id": "A87BB457-D915-4EB0-85D1-5F47904E807E",
+            "monthlyCategoryCap": null,
+            "value": 0.01
+          }
+        ],
+        "sharedCaps" : []
+      }
+    ]
   }
 ]
