@@ -556,6 +556,7 @@
         "issuer": "Abu Dhabi Commercial Bank",
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 250,
         "name": "Shukran ADCB",
         "rules": [
           {
@@ -604,6 +605,7 @@
         "minimumSalaryRequirement": 30000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 1500,
         "name": "Emirates NBD SHARE Infinite",
         "rules": [
           {
@@ -751,6 +753,7 @@
         "minimumSalaryRequirement": 5000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 733.95,
         "name": "SHAMS Infinite Covered Card",
         "rules": [
           {
