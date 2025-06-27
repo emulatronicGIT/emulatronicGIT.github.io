@@ -45,6 +45,7 @@
         "minimumSalaryRequirement": 5000,
         "minimumSpendForCashback": 3000,
         "monthlyCashbackCap": 1000,
+        "annualFee": 300,
         "name": "FAB Cashback",
         "rules": [
           {
@@ -142,6 +143,7 @@
         "minimumSalaryRequirement": 25000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 1800,
+        "annualFee": 1500,
         "name": "FAB Travel",
         "rules": [
           {
@@ -227,6 +229,7 @@
         "minimumSalaryRequirement": 8000,
         "minimumSpendForCashback": 5000,
         "monthlyCashbackCap": 1000,
+        "annualFee": 383.25,
         "name": "365 Cashback",
         "rules": [
           {
@@ -291,6 +294,7 @@
         "minimumSalaryRequirement": 20000,
         "minimumSpendForCashback": 5000,
         "monthlyCashbackCap": 1500,
+        "annualFee": 1575,
         "name": "Traveller",
         "rules": [
           {
