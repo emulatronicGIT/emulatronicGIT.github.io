@@ -1025,6 +1025,7 @@
         "minimumSalaryRequirement": 20000,
         "minimumSpendForCashback": 10000,
         "monthlyCashbackCap": 0,
+        "annualFee": 950,
         "name": "RAKBANK World",
         "rules": [
           {
@@ -1084,6 +1085,7 @@
         "minimumSalaryRequirement": 5000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 1000,
+        "annualFee": 99,
         "name": "ADIB Cashback Visa Covered",
         "rules": [
           {
@@ -1220,6 +1222,7 @@
         "minimumSalaryRequirement": 5000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 399,
         "name": "Dubai First Cashback",
         "rules": [
           {
@@ -1315,6 +1318,7 @@
         "minimumSalaryRequirement": 5000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 199,
         "name": "SIB Cashback",
         "rules": [
           {
@@ -1403,6 +1407,7 @@
         "minimumSalaryRequirement": 5000,
         "minimumSpendForCashback": 3000,
         "monthlyCashbackCap": 0,
+        "annualFee": 313.95,
         "name": "Live+",
         "rules": [
           {
@@ -1520,6 +1525,7 @@
         "minimumSalaryRequirement": 8000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 300,
         "name": "Citi Cashback",
         "rules": [
           {
@@ -1557,6 +1563,7 @@
         "issuer": "Commercial Bank of Dubai",
         "minimumSpendForCashback": 12000,
         "monthlyCashbackCap": 200,
+        "annualFee": 420,
         "name": "CBD Super Saver",
         "rules": [
           {
@@ -1750,6 +1757,7 @@
         "minimumSalaryRequirement": 10000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 1500,
+        "annualFee": 700,
         "name": "LIV Casdhback+ Card",
         "rules": [
           {
@@ -1802,6 +1810,7 @@
         "issuer": "Standard Chartered",
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 525,
         "name": "SimplyCash",
         "rules": [
             {
@@ -1851,6 +1860,7 @@
         "minimumSalaryRequirement": 25000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 1500,
+        "annualFee": 1500,
         "name": "Invest Bank World",
         "rules": [
           {
@@ -1869,6 +1879,7 @@
         "minimumSalaryRequirement": 7000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 1000,
+        "annualFee": 500,
         "name": "Invest Bank Platinum",
         "rules": [
           {
@@ -1894,6 +1905,7 @@
         "minimumSalaryRequirement": 10000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 300,
         "name": "Ultra CashBack - Fuel & Online",
         "rules": [
           {
@@ -1926,6 +1938,7 @@
         "minimumSalaryRequirement": 10000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 300,
         "name": "Ultra CashBack - Fuel & Supermarkets",
         "rules": [
           {
@@ -1958,6 +1971,7 @@
         "minimumSalaryRequirement": 10000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 300,
         "name": "Ultra CashBack - Fuel & School Fees",
         "rules": [
           {
@@ -1988,6 +2002,7 @@
         "minimumSalaryRequirement": 10000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 300,
         "name": "Ultra CashBack - Supermarkets & Online",
         "rules": [
           {
@@ -2022,6 +2037,7 @@
         "minimumSalaryRequirement": 10000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 300,
         "name": "Ultra CashBack - Supermarkets & School Fees",
         "rules": [
           {
@@ -2054,6 +2070,7 @@
         "minimumSalaryRequirement": 10000,
         "minimumSpendForCashback": 0,
         "monthlyCashbackCap": 0,
+        "annualFee": 300,
         "name": "Ultra CashBack - Online & School Fees",
         "rules": [
           {
