@@ -1159,10 +1159,12 @@
             {
               "cap": 400,
               "categories": [
-                "travel",
-                "hotels"
+                {
+                  "hotels": "generic"
+                },
+                "travel"
               ],
-              "id": "DB52C9FC-795F-4638-8343-E36B937261E2"
+              "id": "76B1816D-1B85-4E26-AAE9-C0CED7178975"
             }
           ]
       }
