@@ -1503,6 +1503,30 @@
             "value": 0.005
           },
           {
+            "category": "gas",
+            "id": "5DAABC57-8B7B-41BB-8277-448CCE7EF167",
+            "monthlyCategoryCap": null,
+            "value": 0.005
+          },
+          {
+            "category": "telecomBills",
+            "id": "5DAABC57-8B7B-41BB-8277-448CCE7EF168",
+            "monthlyCategoryCap": null,
+            "value": 0.005
+          },
+          {
+            "category": "transportation",
+            "id": "5DAABC57-8B7B-41BB-8277-448CCE7EF169",
+            "monthlyCategoryCap": null,
+            "value": 0.005
+          },
+          {
+            "category": "realEstate",
+            "id": "5DAABC57-8B7B-41BB-8277-448CCE7EF170",
+            "monthlyCategoryCap": null,
+            "value": 0.005
+          },
+          {
             "category": "rest",
             "id": "F2BC3B7A-FF63-4F81-A26F-9D875D479C06",
             "monthlyCategoryCap": null,
