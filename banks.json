@@ -1010,7 +1010,49 @@
             "value": 0.02
           },
           {
-            "category": "nonEwalletRetail",
+            "category": "government",
+            "id": "53395610-C22E-4C04-9628-E2859C744495",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "schoolFees",
+            "id": "53395610-C22E-4C04-9628-E2859C744496",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "gas",
+            "id": "53395610-C22E-4C04-9628-E2859C744497",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "transportation",
+            "id": "53395610-C22E-4C04-9628-E2859C744498",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "utilities",
+            "id": "53395610-C22E-4C04-9628-E2859C744499",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "telecomBills",
+            "id": "53395610-C22E-4C04-9628-E2859C744410",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "realEstate",
+            "id": "53395610-C22E-4C04-9628-E2859C744411",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "rest",
             "id": "5FEAFD03-19A0-48D2-9F15-CE7582EF7AA8",
             "monthlyCategoryCap": 100,
             "value": 0.01
