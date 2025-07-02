@@ -1031,7 +1031,15 @@
           {
             "category": "travel",
             "id": "9E07D451-2E59-4815-AFED-512593A5EBFB",
-            "monthlyCategoryCap": 400,
+            "monthlyCategoryCap": null,
+            "value": 0.1
+          },
+          {
+            "category": {
+              "hotels": "generic"
+            },
+            "id": "9E07D451-2E59-4815-AFED-512593A5EBFC",
+            "monthlyCategoryCap": null,
             "value": 0.1
           },
           {
@@ -1051,10 +1059,46 @@
             "value": 0.1
           },
           {
-            "category": "international",
+            "category": "government",
             "id": "E0545589-BC20-4DB8-8FAE-FD3EE3FF6AA5",
             "monthlyCategoryCap": null,
-            "value": 0.05
+            "value": 0.0025
+          },
+          {
+            "category": "schoolFees",
+            "id": "E0545589-BC20-4DB8-8FAE-FD3EE3FF6AA6",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "gas",
+            "id": "E0545589-BC20-4DB8-8FAE-FD3EE3FF6AA7",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "transportation",
+            "id": "E0545589-BC20-4DB8-8FAE-FD3EE3FF6AA8",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "utilities",
+            "id": "E0545589-BC20-4DB8-8FAE-FD3EE3FF6AA9",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "telecomBills",
+            "id": "E0545589-BC20-4DB8-8FAE-FD3EE3FF6AA8",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
+          },
+          {
+            "category": "realEstate",
+            "id": "E0545589-BC20-4DB8-8FAE-FD3EE3FF6AA8",
+            "monthlyCategoryCap": null,
+            "value": 0.0025
           },
           {
             "category": "ewalletRetail",
@@ -1069,7 +1113,16 @@
             "value": 0.01
           }
         ],
-        "sharedCaps": []
+        "sharedCaps": [
+            {
+              "cap": 400,
+              "categories": [
+                "travel",
+                "hotels"
+              ],
+              "id": "DB52C9FC-795F-4638-8343-E36B937261E2"
+            }
+          ]
       }
     ]
   },
